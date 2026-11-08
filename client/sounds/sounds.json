@@ -1,0 +1,2618 @@
+{
+  "step.stone": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-stone-step/01",
+      "effects/material-stone-step/02",
+      "effects/material-stone-step/03",
+      "effects/material-stone-step/04",
+      "effects/material-stone-step/05"
+    ]
+  },
+  "hit.stone": {
+    "category": "block",
+    "sounds": [
+      "effects/material-stone-hit/01",
+      "effects/material-stone-hit/02",
+      "effects/material-stone-hit/03",
+      "effects/material-stone-hit/04",
+      "effects/material-stone-hit/05"
+    ]
+  },
+  "dig.stone": {
+    "category": "block",
+    "sounds": [
+      "effects/material-stone-break/01",
+      "effects/material-stone-break/02",
+      "effects/material-stone-break/03",
+      "effects/material-stone-break/04"
+    ]
+  },
+  "step.wood": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-wood-step/01",
+      "effects/material-wood-step/02",
+      "effects/material-wood-step/03",
+      "effects/material-wood-step/04",
+      "effects/material-wood-step/05"
+    ]
+  },
+  "hit.wood": {
+    "category": "block",
+    "sounds": [
+      "effects/material-wood-hit/01",
+      "effects/material-wood-hit/02",
+      "effects/material-wood-hit/03",
+      "effects/material-wood-hit/04",
+      "effects/material-wood-hit/05"
+    ]
+  },
+  "dig.wood": {
+    "category": "block",
+    "sounds": [
+      "effects/material-wood-break/01",
+      "effects/material-wood-break/02",
+      "effects/material-wood-break/03",
+      "effects/material-wood-break/04",
+      "effects/material-wood-break/05"
+    ]
+  },
+  "step.grass": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "hit.grass": {
+    "category": "block",
+    "sounds": [
+      "effects/material-grass-hit/01",
+      "effects/material-grass-hit/02",
+      "effects/material-grass-hit/03",
+      "effects/material-grass-hit/04",
+      "effects/material-grass-hit/05"
+    ]
+  },
+  "dig.grass": {
+    "category": "block",
+    "sounds": [
+      "effects/material-grass-break/01",
+      "effects/material-grass-break/02",
+      "effects/material-grass-break/03",
+      "effects/material-grass-break/04",
+      "effects/material-grass-break/05"
+    ]
+  },
+  "step.gravel": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-gravel-step/01",
+      "effects/material-gravel-step/02",
+      "effects/material-gravel-step/03",
+      "effects/material-gravel-step/04",
+      "effects/material-gravel-step/05",
+      "effects/material-gravel-step/06",
+      "effects/material-gravel-step/07",
+      "effects/material-gravel-step/08",
+      "effects/material-gravel-step/09",
+      "effects/material-gravel-step/10"
+    ]
+  },
+  "hit.gravel": {
+    "category": "block",
+    "sounds": [
+      "effects/material-gravel-hit/01",
+      "effects/material-gravel-hit/02",
+      "effects/material-gravel-hit/03",
+      "effects/material-gravel-hit/04"
+    ]
+  },
+  "dig.gravel": {
+    "category": "block",
+    "sounds": [
+      "effects/material-gravel-break/01",
+      "effects/material-gravel-break/02",
+      "effects/material-gravel-break/03",
+      "effects/material-gravel-break/04"
+    ]
+  },
+  "step.sand": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-sand-step/01",
+      "effects/material-sand-step/02",
+      "effects/material-sand-step/03",
+      "effects/material-sand-step/04",
+      "effects/material-sand-step/05",
+      "effects/material-sand-step/06",
+      "effects/material-sand-step/07",
+      "effects/material-sand-step/08",
+      "effects/material-sand-step/09",
+      "effects/material-sand-step/10"
+    ]
+  },
+  "hit.sand": {
+    "category": "block",
+    "sounds": [
+      "effects/material-sand-hit/01",
+      "effects/material-sand-hit/02",
+      "effects/material-sand-hit/03",
+      "effects/material-sand-hit/04",
+      "effects/material-sand-hit/05"
+    ]
+  },
+  "dig.sand": {
+    "category": "block",
+    "sounds": [
+      "effects/material-sand-break/01",
+      "effects/material-sand-break/02",
+      "effects/material-sand-break/03",
+      "effects/material-sand-break/04",
+      "effects/material-sand-break/05"
+    ]
+  },
+  "step.snow": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-snow-step/01",
+      "effects/material-snow-step/02",
+      "effects/material-snow-step/03",
+      "effects/material-snow-step/04",
+      "effects/material-snow-step/05"
+    ]
+  },
+  "hit.snow": {
+    "category": "block",
+    "sounds": [
+      "effects/material-snow-hit/01",
+      "effects/material-snow-hit/02",
+      "effects/material-snow-hit/03",
+      "effects/material-snow-hit/04",
+      "effects/material-snow-hit/05"
+    ]
+  },
+  "dig.snow": {
+    "category": "block",
+    "sounds": [
+      "effects/material-sand-break/01",
+      "effects/material-sand-break/02",
+      "effects/material-sand-break/03",
+      "effects/material-sand-break/04",
+      "effects/material-sand-break/05"
+    ]
+  },
+  "step.cloth": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-cloth-step/01",
+      "effects/material-cloth-step/02",
+      "effects/material-cloth-step/03",
+      "effects/material-cloth-step/04",
+      "effects/material-cloth-step/05"
+    ]
+  },
+  "hit.cloth": {
+    "category": "block",
+    "sounds": [
+      "effects/material-cloth-hit/01",
+      "effects/material-cloth-hit/02",
+      "effects/material-cloth-hit/03",
+      "effects/material-cloth-hit/04"
+    ]
+  },
+  "dig.cloth": {
+    "category": "block",
+    "sounds": [
+      "effects/material-cloth-break/01",
+      "effects/material-cloth-break/02",
+      "effects/material-cloth-break/03",
+      "effects/material-cloth-break/04"
+    ]
+  },
+  "step.ladder": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-ladder-step/01",
+      "effects/material-ladder-step/02",
+      "effects/material-ladder-step/03",
+      "effects/material-ladder-step/04",
+      "effects/material-ladder-step/05"
+    ]
+  },
+  "hit.glass": {
+    "category": "block",
+    "sounds": [
+      "effects/material-glass-hit/01",
+      "effects/material-glass-hit/02",
+      "effects/material-glass-hit/03",
+      "effects/material-glass-hit/04",
+      "effects/material-glass-hit/05"
+    ]
+  },
+  "dig.glass": {
+    "category": "block",
+    "sounds": [
+      "effects/material-glass-break/01",
+      "effects/material-glass-break/02",
+      "effects/material-glass-break/03",
+      "effects/material-glass-break/04",
+      "effects/material-glass-break/05"
+    ]
+  },
+  "game.potion.smash": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-glass-break/01",
+      "effects/material-glass-break/02",
+      "effects/material-glass-break/03",
+      "effects/material-glass-break/04",
+      "effects/material-glass-break/05"
+    ]
+  },
+  "music.menu": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/recorded/first-light-particles",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/mystical-piano",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/waiting-ii",
+        "stream": true
+      }
+    ]
+  },
+  "music.game": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/recorded/first-light-particles",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/mystical-piano",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/waiting-ii",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/another-august",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/november-snow",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/aquaria",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/happy-lullaby-song17",
+        "stream": true
+      }
+    ]
+  },
+  "music.game.creative": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/recorded/vaporware",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/a-new-town-rpg-theme",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/another-august",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/first-light-particles",
+        "stream": true
+      }
+    ]
+  },
+  "music.game.end": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/recorded/icy-realm-seven-and-eight",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/mysterious-ambience-song21",
+        "stream": true
+      }
+    ]
+  },
+  "music.game.end.dragon": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/recorded/dark-forest-theme",
+        "stream": true
+      }
+    ]
+  },
+  "music.game.end.credits": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/recorded/waiting-ii",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/first-light-particles",
+        "stream": true
+      }
+    ]
+  },
+  "music.game.nether": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/recorded/crystal-cave-song18",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/mysterious-ambience-song21",
+        "stream": true
+      },
+      {
+        "name": "music/recorded/dark-forest-theme",
+        "stream": true
+      }
+    ]
+  },
+  "records.13": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/first-light-particles",
+        "stream": true
+      }
+    ]
+  },
+  "records.cat": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/mystical-piano",
+        "stream": true
+      }
+    ]
+  },
+  "records.blocks": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/waiting-ii",
+        "stream": true
+      }
+    ]
+  },
+  "records.chirp": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/vaporware",
+        "stream": true
+      }
+    ]
+  },
+  "records.far": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/another-august",
+        "stream": true
+      }
+    ]
+  },
+  "records.mall": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/november-snow",
+        "stream": true
+      }
+    ]
+  },
+  "records.mellohi": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/aquaria",
+        "stream": true
+      }
+    ]
+  },
+  "records.stal": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/a-new-town-rpg-theme",
+        "stream": true
+      }
+    ]
+  },
+  "records.strad": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/happy-lullaby-song17",
+        "stream": true
+      }
+    ]
+  },
+  "records.ward": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/crystal-cave-song18",
+        "stream": true
+      }
+    ]
+  },
+  "records.11": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/dark-forest-theme",
+        "stream": true
+      }
+    ]
+  },
+  "records.wait": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/recorded/icy-realm-seven-and-eight",
+        "stream": true
+      }
+    ]
+  },
+  "game.neutral.swim.splash": {
+    "category": "neutral",
+    "sounds": [
+      "effects/water/splash/01",
+      "effects/water/splash/02",
+      "effects/water/splash/03",
+      "effects/water/splash/04",
+      "effects/water/splash/05",
+      "effects/water/splash/06"
+    ]
+  },
+  "game.player.swim.splash": {
+    "category": "block",
+    "sounds": [
+      "effects/water/splash/01",
+      "effects/water/splash/02",
+      "effects/water/splash/03",
+      "effects/water/splash/04",
+      "effects/water/splash/05",
+      "effects/water/splash/06"
+    ]
+  },
+  "game.hostile.swim.splash": {
+    "category": "hostile",
+    "sounds": [
+      "effects/water/splash/01",
+      "effects/water/splash/02",
+      "effects/water/splash/03",
+      "effects/water/splash/04",
+      "effects/water/splash/05",
+      "effects/water/splash/06"
+    ]
+  },
+  "game.player.swim": {
+    "category": "player",
+    "sounds": [
+      "effects/water/swim/01",
+      "effects/water/swim/02",
+      "effects/water/swim/03",
+      "effects/water/swim/04",
+      "effects/water/swim/05",
+      "effects/water/swim/06"
+    ]
+  },
+  "game.neutral.swim": {
+    "category": "neutral",
+    "sounds": [
+      "effects/water/swim/01",
+      "effects/water/swim/02",
+      "effects/water/swim/03",
+      "effects/water/swim/04",
+      "effects/water/swim/05",
+      "effects/water/swim/06"
+    ]
+  },
+  "game.hostile.swim": {
+    "category": "hostile",
+    "sounds": [
+      "effects/water/swim/01",
+      "effects/water/swim/02",
+      "effects/water/swim/03",
+      "effects/water/swim/04",
+      "effects/water/swim/05",
+      "effects/water/swim/06"
+    ]
+  },
+  "random.splash": {
+    "category": "player",
+    "sounds": [
+      "effects/water/splash/01",
+      "effects/water/splash/02",
+      "effects/water/splash/03",
+      "effects/water/splash/04",
+      "effects/water/splash/05",
+      "effects/water/splash/06"
+    ]
+  },
+  "liquid.water": {
+    "category": "block",
+    "sounds": [
+      "effects/water/flow/01",
+      "effects/water/flow/02",
+      "effects/water/flow/03"
+    ]
+  },
+  "liquid.lava": {
+    "category": "block",
+    "sounds": [
+      "effects/heat/boil/01",
+      "effects/heat/boil/02"
+    ]
+  },
+  "liquid.lavapop": {
+    "category": "block",
+    "sounds": [
+      "effects/heat/pop/01",
+      "effects/heat/pop/02",
+      "effects/heat/pop/03"
+    ]
+  },
+  "ambient.weather.rain": {
+    "category": "weather",
+    "sounds": [
+      "effects/weather/rain/01"
+    ]
+  },
+  "ambient.weather.thunder": {
+    "category": "weather",
+    "sounds": [
+      "effects/weather/thunder/01",
+      "effects/weather/thunder/02"
+    ]
+  },
+  "ambient.cave.cave": {
+    "category": "ambient",
+    "sounds": [
+      "effects/cavern/air/01",
+      "effects/cavern/air/02",
+      "effects/cavern/air/03"
+    ]
+  },
+  "fire.fire": {
+    "category": "block",
+    "sounds": [
+      "effects/fire/embers"
+    ]
+  },
+  "minecart.base": {
+    "category": "neutral",
+    "sounds": [
+      "effects/vehicles/wheels"
+    ]
+  },
+  "minecart.inside": {
+    "category": "player",
+    "sounds": [
+      "effects/vehicles/cabin"
+    ]
+  },
+  "mob.bat.death": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.bat.hurt": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/flitter-hurt/01",
+      "effects/voices/flitter-hurt/02"
+    ]
+  },
+  "mob.bat.idle": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/flitter/01",
+      "effects/voices/flitter/02"
+    ]
+  },
+  "mob.bat.loop": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/flitter/01",
+      "effects/voices/flitter/02"
+    ]
+  },
+  "mob.bat.takeoff": {
+    "category": "neutral",
+    "sounds": [
+      "effects/motion/wings/01",
+      "effects/motion/wings/02"
+    ]
+  },
+  "mob.blaze.breathe": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/ember/01"
+    ]
+  },
+  "mob.blaze.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.blaze.hit": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/ember-hurt/01",
+      "effects/voices/ember-hurt/02"
+    ]
+  },
+  "mob.guardian.hit": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/tide-hurt/01",
+      "effects/voices/tide-hurt/02"
+    ]
+  },
+  "mob.guardian.idle": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/tide/01",
+      "effects/voices/tide/02"
+    ]
+  },
+  "mob.guardian.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.guardian.elder.hit": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/tide-hurt/01",
+      "effects/voices/tide-hurt/02"
+    ]
+  },
+  "mob.guardian.elder.idle": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/tide/01",
+      "effects/voices/tide/02"
+    ]
+  },
+  "mob.guardian.elder.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.guardian.land.hit": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/tide-hurt/01",
+      "effects/voices/tide-hurt/02"
+    ]
+  },
+  "mob.guardian.land.idle": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/tide/01",
+      "effects/voices/tide/02"
+    ]
+  },
+  "mob.guardian.land.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.guardian.curse": {
+    "category": "hostile",
+    "sounds": [
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03"
+    ]
+  },
+  "mob.guardian.attack": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/tide/01",
+      "effects/voices/tide/02"
+    ]
+  },
+  "mob.guardian.flop": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/tide/01",
+      "effects/voices/tide/02"
+    ]
+  },
+  "mob.cat.hiss": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/hiss"
+    ]
+  },
+  "mob.cat.hitt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/cat/01",
+        "volume": 1,
+        "pitch": 1.05
+      }
+    ]
+  },
+  "mob.cat.meow": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/cat/01"
+    ]
+  },
+  "mob.cat.purr": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/purr"
+    ]
+  },
+  "mob.cat.purreow": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/purr"
+    ]
+  },
+  "mob.chicken.hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/chicken/01",
+        "volume": 0.6,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/chicken/02",
+        "volume": 0.6,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/chicken/03",
+        "volume": 0.6,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/chicken/04",
+        "volume": 0.6,
+        "pitch": 1.05
+      }
+    ]
+  },
+  "mob.chicken.plop": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/chicken/01",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/chicken/02",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/chicken/03",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/chicken/04",
+        "volume": 0.6
+      }
+    ]
+  },
+  "mob.chicken.say": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/chicken/01",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/chicken/02",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/chicken/03",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/chicken/04",
+        "volume": 0.6
+      }
+    ]
+  },
+  "mob.chicken.step": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "mob.cow.hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/cow/01",
+        "volume": 0.6,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/cow/02",
+        "volume": 0.6,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/cow/03",
+        "volume": 0.6,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/cow/04",
+        "volume": 0.6,
+        "pitch": 1.05
+      }
+    ]
+  },
+  "mob.cow.say": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/cow/01",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/cow/02",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/cow/03",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/cow/04",
+        "volume": 0.6
+      }
+    ]
+  },
+  "mob.cow.step": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "mob.creeper.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.creeper.say": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/bramble/01",
+      "effects/voices/bramble/02"
+    ]
+  },
+  "mob.enderdragon.end": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/skybeast-death/01"
+    ]
+  },
+  "mob.enderdragon.growl": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/skybeast/01",
+      "effects/voices/skybeast/02",
+      "effects/voices/skybeast/03"
+    ]
+  },
+  "mob.enderdragon.hit": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/skybeast-hurt/01",
+      "effects/voices/skybeast-hurt/02"
+    ]
+  },
+  "mob.enderdragon.wings": {
+    "category": "hostile",
+    "sounds": [
+      "effects/motion/wings/01",
+      "effects/motion/wings/02"
+    ]
+  },
+  "mob.endermen.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.endermen.hit": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/skybeast-hurt/01",
+      "effects/voices/skybeast-hurt/02"
+    ]
+  },
+  "mob.endermen.idle": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/rift/01",
+      "effects/voices/rift/02"
+    ]
+  },
+  "mob.endermen.portal": {
+    "category": "hostile",
+    "sounds": [
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03"
+    ]
+  },
+  "mob.endermen.scream": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/rift/01",
+      "effects/voices/rift/02"
+    ]
+  },
+  "mob.endermen.stare": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/rift/01",
+      "effects/voices/rift/02"
+    ]
+  },
+  "mob.ghast.affectionate_scream": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/wisp/01",
+      "effects/voices/wisp/02",
+      "effects/voices/wisp/03"
+    ]
+  },
+  "mob.ghast.charge": {
+    "category": "hostile",
+    "sounds": [
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03"
+    ]
+  },
+  "mob.ghast.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.ghast.fireball": {
+    "category": "hostile",
+    "sounds": [
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03"
+    ]
+  },
+  "mob.ghast.moan": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/wisp/01",
+      "effects/voices/wisp/02",
+      "effects/voices/wisp/03"
+    ]
+  },
+  "mob.ghast.scream": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/wisp/01",
+      "effects/voices/wisp/02",
+      "effects/voices/wisp/03"
+    ]
+  },
+  "mob.horse.angry": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/horse/01",
+        "volume": 1,
+        "pitch": 1.05
+      }
+    ]
+  },
+  "mob.horse.armor": {
+    "category": "neutral",
+    "sounds": [
+      "effects/gear/metal/01",
+      "effects/gear/metal/02",
+      "effects/gear/metal/03"
+    ]
+  },
+  "mob.horse.breathe": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/horse/01"
+    ]
+  },
+  "mob.horse.death": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/horse/01",
+        "volume": 0.8,
+        "pitch": 1
+      }
+    ]
+  },
+  "mob.horse.donkey.angry": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/donkey/01",
+        "volume": 1,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/donkey/02",
+        "volume": 1,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/donkey/03",
+        "volume": 1,
+        "pitch": 1.05
+      }
+    ]
+  },
+  "mob.horse.donkey.death": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/donkey/01",
+        "volume": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "effects/animals/donkey/02",
+        "volume": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "effects/animals/donkey/03",
+        "volume": 0.8,
+        "pitch": 1
+      }
+    ]
+  },
+  "mob.horse.donkey.hit": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/donkey/01",
+        "volume": 1,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/donkey/02",
+        "volume": 1,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/donkey/03",
+        "volume": 1,
+        "pitch": 1.05
+      }
+    ]
+  },
+  "mob.horse.donkey.idle": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/donkey/01",
+      "effects/animals/donkey/02",
+      "effects/animals/donkey/03"
+    ]
+  },
+  "mob.horse.gallop": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/material-wood-step/01",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/02",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/03",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/04",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/05",
+        "volume": 1,
+        "pitch": 0.85
+      }
+    ]
+  },
+  "mob.horse.hit": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/horse/01",
+        "volume": 1,
+        "pitch": 1.05
+      }
+    ]
+  },
+  "mob.horse.idle": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/horse/01"
+    ]
+  },
+  "mob.horse.jump": {
+    "category": "neutral",
+    "sounds": [
+      "effects/motion/wings/01",
+      "effects/motion/wings/02"
+    ]
+  },
+  "mob.horse.land": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/material-wood-step/01",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/02",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/03",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/04",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/05",
+        "volume": 1,
+        "pitch": 0.85
+      }
+    ]
+  },
+  "mob.horse.leather": {
+    "category": "neutral",
+    "sounds": [
+      "effects/gear/metal/01",
+      "effects/gear/metal/02",
+      "effects/gear/metal/03"
+    ]
+  },
+  "mob.horse.skeleton.death": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/haunted-equine/01",
+      "effects/voices/haunted-equine/02"
+    ]
+  },
+  "mob.horse.skeleton.hit": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/haunted-equine/01",
+      "effects/voices/haunted-equine/02"
+    ]
+  },
+  "mob.horse.skeleton.idle": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/haunted-equine/01",
+      "effects/voices/haunted-equine/02"
+    ]
+  },
+  "mob.horse.soft": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/material-wood-step/01",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/02",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/03",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/04",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/05",
+        "volume": 1,
+        "pitch": 0.85
+      }
+    ]
+  },
+  "mob.horse.wood": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/material-wood-step/01",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/02",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/03",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/04",
+        "volume": 1,
+        "pitch": 0.85
+      },
+      {
+        "name": "effects/material-wood-step/05",
+        "volume": 1,
+        "pitch": 0.85
+      }
+    ]
+  },
+  "mob.horse.zombie.death": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/haunted-equine/01",
+      "effects/voices/haunted-equine/02"
+    ]
+  },
+  "mob.horse.zombie.hit": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/haunted-equine/01",
+      "effects/voices/haunted-equine/02"
+    ]
+  },
+  "mob.horse.zombie.idle": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/haunted-equine/01",
+      "effects/voices/haunted-equine/02"
+    ]
+  },
+  "mob.irongolem.death": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/sentinel-collapse/01",
+      "effects/voices/sentinel-collapse/02",
+      "effects/voices/sentinel-collapse/03",
+      "effects/voices/sentinel-collapse/04"
+    ]
+  },
+  "mob.irongolem.hit": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/sentinel/01",
+      "effects/voices/sentinel/02",
+      "effects/voices/sentinel/03"
+    ]
+  },
+  "mob.irongolem.throw": {
+    "category": "neutral",
+    "sounds": [
+      "effects/motion/wings/01",
+      "effects/motion/wings/02"
+    ]
+  },
+  "mob.irongolem.walk": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-wood-step/01",
+      "effects/material-wood-step/02",
+      "effects/material-wood-step/03",
+      "effects/material-wood-step/04",
+      "effects/material-wood-step/05"
+    ]
+  },
+  "mob.magmacube.big": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/cinder/01",
+      "effects/voices/cinder/02",
+      "effects/voices/cinder/03"
+    ]
+  },
+  "mob.magmacube.jump": {
+    "category": "hostile",
+    "sounds": [
+      "effects/motion/wings/01",
+      "effects/motion/wings/02"
+    ]
+  },
+  "mob.magmacube.small": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/cinder/01",
+      "effects/voices/cinder/02",
+      "effects/voices/cinder/03"
+    ]
+  },
+  "mob.pig.death": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/pig/01",
+        "volume": 0.48,
+        "pitch": 1
+      }
+    ]
+  },
+  "mob.pig.say": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/pig/01",
+        "volume": 0.6
+      }
+    ]
+  },
+  "mob.pig.step": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "mob.rabbit.hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/hare/01",
+        "volume": 1,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/hare/02",
+        "volume": 1,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/hare/03",
+        "volume": 1,
+        "pitch": 1.05
+      }
+    ]
+  },
+  "mob.rabbit.idle": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/hare/01",
+      "effects/animals/hare/02",
+      "effects/animals/hare/03"
+    ]
+  },
+  "mob.rabbit.hop": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "mob.rabbit.death": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/hare/01",
+        "volume": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "effects/animals/hare/02",
+        "volume": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "effects/animals/hare/03",
+        "volume": 0.8,
+        "pitch": 1
+      }
+    ]
+  },
+  "mob.sheep.say": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/sheep/01",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/sheep/02",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/sheep/03",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/sheep/04",
+        "volume": 0.6
+      }
+    ]
+  },
+  "mob.sheep.shear": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/sheep/01",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/sheep/02",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/sheep/03",
+        "volume": 0.6
+      },
+      {
+        "name": "effects/animals/sheep/04",
+        "volume": 0.6
+      }
+    ]
+  },
+  "mob.sheep.step": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "mob.silverfish.hit": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/skybeast-hurt/01",
+      "effects/voices/skybeast-hurt/02"
+    ]
+  },
+  "mob.silverfish.kill": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/scuttler-death/01"
+    ]
+  },
+  "mob.silverfish.say": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/scuttler/01",
+      "effects/voices/scuttler/02",
+      "effects/voices/scuttler/03",
+      "effects/voices/scuttler/04",
+      "effects/voices/scuttler/05",
+      "effects/voices/scuttler/06",
+      "effects/voices/scuttler/07",
+      "effects/voices/scuttler/08",
+      "effects/voices/scuttler/09"
+    ]
+  },
+  "mob.silverfish.step": {
+    "category": "hostile",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "mob.skeleton.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/bones/collapse-01",
+      "effects/voices/bones/collapse-02"
+    ]
+  },
+  "mob.skeleton.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/bones/hit-01",
+      "effects/voices/bones/hit-02",
+      "effects/voices/bones/hit-03"
+    ]
+  },
+  "mob.skeleton.say": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/bones/hit-01",
+      "effects/voices/bones/hit-02",
+      "effects/voices/bones/hit-03"
+    ]
+  },
+  "mob.skeleton.step": {
+    "category": "hostile",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "mob.slime.attack": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/mire/01",
+      "effects/voices/mire/02",
+      "effects/voices/mire/03"
+    ]
+  },
+  "mob.slime.big": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/mire/01",
+      "effects/voices/mire/02",
+      "effects/voices/mire/03"
+    ]
+  },
+  "mob.slime.small": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/mire/01",
+      "effects/voices/mire/02",
+      "effects/voices/mire/03"
+    ]
+  },
+  "mob.spider.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.spider.say": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/weaver/01",
+      "effects/voices/weaver/02"
+    ]
+  },
+  "mob.spider.step": {
+    "category": "hostile",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "mob.villager.death": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.villager.haggle": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/settler/01",
+      "effects/voices/settler/02",
+      "effects/voices/settler/03"
+    ]
+  },
+  "mob.villager.hit": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/skybeast-hurt/01",
+      "effects/voices/skybeast-hurt/02"
+    ]
+  },
+  "mob.villager.idle": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/settler/01",
+      "effects/voices/settler/02",
+      "effects/voices/settler/03"
+    ]
+  },
+  "mob.villager.no": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/settler/01",
+      "effects/voices/settler/02",
+      "effects/voices/settler/03"
+    ]
+  },
+  "mob.villager.yes": {
+    "category": "neutral",
+    "sounds": [
+      "effects/voices/settler/01",
+      "effects/voices/settler/02",
+      "effects/voices/settler/03"
+    ]
+  },
+  "mob.wither.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/tempest-death/01"
+    ]
+  },
+  "mob.wither.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/skybeast-hurt/01",
+      "effects/voices/skybeast-hurt/02"
+    ]
+  },
+  "mob.wither.idle": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/tempest/01",
+      "effects/voices/tempest/02",
+      "effects/voices/tempest/03"
+    ]
+  },
+  "mob.wither.shoot": {
+    "category": "hostile",
+    "sounds": [
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03"
+    ]
+  },
+  "mob.wither.spawn": {
+    "category": "hostile",
+    "sounds": [
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03"
+    ]
+  },
+  "mob.wolf.bark": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/canine/01",
+      "effects/animals/canine/02",
+      "effects/animals/canine/03",
+      "effects/animals/canine/04"
+    ]
+  },
+  "mob.wolf.death": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/canine/01",
+        "volume": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "effects/animals/canine/02",
+        "volume": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "effects/animals/canine/03",
+        "volume": 0.8,
+        "pitch": 1
+      },
+      {
+        "name": "effects/animals/canine/04",
+        "volume": 0.8,
+        "pitch": 1
+      }
+    ]
+  },
+  "mob.wolf.growl": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/growl/01",
+      "effects/animals/growl/02"
+    ]
+  },
+  "mob.wolf.howl": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/howl/01"
+    ]
+  },
+  "mob.wolf.hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "effects/animals/canine/01",
+        "volume": 1,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/canine/02",
+        "volume": 1,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/canine/03",
+        "volume": 1,
+        "pitch": 1.05
+      },
+      {
+        "name": "effects/animals/canine/04",
+        "volume": 1,
+        "pitch": 1.05
+      }
+    ]
+  },
+  "mob.wolf.panting": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/canine/01",
+      "effects/animals/canine/02",
+      "effects/animals/canine/03",
+      "effects/animals/canine/04"
+    ]
+  },
+  "mob.wolf.shake": {
+    "category": "neutral",
+    "sounds": [
+      "effects/motion/wings/01",
+      "effects/motion/wings/02"
+    ]
+  },
+  "mob.wolf.step": {
+    "category": "neutral",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "mob.wolf.whine": {
+    "category": "neutral",
+    "sounds": [
+      "effects/animals/canine/01",
+      "effects/animals/canine/02",
+      "effects/animals/canine/03",
+      "effects/animals/canine/04"
+    ]
+  },
+  "mob.zombie.death": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.zombie.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/skybeast-hurt/01",
+      "effects/voices/skybeast-hurt/02"
+    ]
+  },
+  "mob.zombie.infect": {
+    "category": "hostile",
+    "sounds": [
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03"
+    ]
+  },
+  "mob.zombie.metal": {
+    "category": "hostile",
+    "sounds": [
+      "effects/gear/metal/01",
+      "effects/gear/metal/02",
+      "effects/gear/metal/03"
+    ]
+  },
+  "mob.zombie.remedy": {
+    "category": "hostile",
+    "sounds": [
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03"
+    ]
+  },
+  "mob.zombie.say": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/hollow/01",
+      "effects/voices/hollow/02",
+      "effects/voices/hollow/03",
+      "effects/voices/hollow/04",
+      "effects/voices/hollow/05"
+    ]
+  },
+  "mob.zombie.step": {
+    "category": "hostile",
+    "sounds": [
+      "effects/material-grass-step/01",
+      "effects/material-grass-step/02",
+      "effects/material-grass-step/03",
+      "effects/material-grass-step/04",
+      "effects/material-grass-step/05"
+    ]
+  },
+  "mob.zombie.unfect": {
+    "category": "hostile",
+    "sounds": [
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03"
+    ]
+  },
+  "mob.zombie.wood": {
+    "category": "hostile",
+    "sounds": [
+      "effects/material-wood-hit/01",
+      "effects/material-wood-hit/02",
+      "effects/material-wood-hit/03",
+      "effects/material-wood-hit/04",
+      "effects/material-wood-hit/05"
+    ]
+  },
+  "mob.zombie.woodbreak": {
+    "category": "hostile",
+    "sounds": [
+      "effects/material-wood-break/01",
+      "effects/material-wood-break/02",
+      "effects/material-wood-break/03",
+      "effects/material-wood-break/04",
+      "effects/material-wood-break/05"
+    ]
+  },
+  "mob.zombiepig.zpig": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/feral/01",
+      "effects/voices/feral/02",
+      "effects/voices/feral/03",
+      "effects/voices/feral/04"
+    ]
+  },
+  "mob.zombiepig.zpigangry": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/feral/01",
+      "effects/voices/feral/02",
+      "effects/voices/feral/03",
+      "effects/voices/feral/04"
+    ]
+  },
+  "mob.zombiepig.zpigdeath": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/flitter-death/01"
+    ]
+  },
+  "mob.zombiepig.zpighurt": {
+    "category": "hostile",
+    "sounds": [
+      "effects/voices/feral-hurt/01",
+      "effects/voices/feral-hurt/02"
+    ]
+  },
+  "game.player.hurt.fall.big": {
+    "category": "player",
+    "sounds": [
+      "effects/player/landing/01",
+      "effects/player/landing/02",
+      "effects/player/landing/03",
+      "effects/player/landing/04",
+      "effects/player/landing/05"
+    ]
+  },
+  "game.player.hurt.fall.small": {
+    "category": "player",
+    "sounds": [
+      "effects/player/landing/01",
+      "effects/player/landing/02",
+      "effects/player/landing/03",
+      "effects/player/landing/04",
+      "effects/player/landing/05"
+    ]
+  },
+  "game.neutral.hurt.fall.big": {
+    "category": "neutral",
+    "sounds": [
+      "effects/player/landing/01",
+      "effects/player/landing/02",
+      "effects/player/landing/03",
+      "effects/player/landing/04",
+      "effects/player/landing/05"
+    ]
+  },
+  "game.neutral.hurt.fall.small": {
+    "category": "neutral",
+    "sounds": [
+      "effects/player/landing/01",
+      "effects/player/landing/02",
+      "effects/player/landing/03",
+      "effects/player/landing/04",
+      "effects/player/landing/05"
+    ]
+  },
+  "game.hostile.hurt.fall.big": {
+    "category": "hostile",
+    "sounds": [
+      "effects/player/landing/01",
+      "effects/player/landing/02",
+      "effects/player/landing/03",
+      "effects/player/landing/04",
+      "effects/player/landing/05"
+    ]
+  },
+  "game.hostile.hurt.fall.small": {
+    "category": "hostile",
+    "sounds": [
+      "effects/player/landing/01",
+      "effects/player/landing/02",
+      "effects/player/landing/03",
+      "effects/player/landing/04",
+      "effects/player/landing/05"
+    ]
+  },
+  "game.player.hurt": {
+    "category": "player",
+    "sounds": [
+      "effects/player/body-hit/01",
+      "effects/player/body-hit/02",
+      "effects/player/body-hit/03"
+    ]
+  },
+  "game.neutral.hurt": {
+    "category": "neutral",
+    "sounds": [
+      "effects/player/hurt/01",
+      "effects/player/hurt/02",
+      "effects/player/hurt/03",
+      "effects/player/hurt/04",
+      "effects/player/hurt/05"
+    ]
+  },
+  "game.hostile.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "effects/player/hurt/01",
+      "effects/player/hurt/02",
+      "effects/player/hurt/03",
+      "effects/player/hurt/04",
+      "effects/player/hurt/05"
+    ]
+  },
+  "game.player.die": {
+    "category": "player",
+    "sounds": [
+      "effects/player/body-fall"
+    ]
+  },
+  "game.neutral.die": {
+    "category": "neutral",
+    "sounds": [
+      "effects/player/death/01",
+      "effects/player/death/02",
+      "effects/player/death/03",
+      "effects/player/death/04"
+    ]
+  },
+  "game.hostile.die": {
+    "category": "hostile",
+    "sounds": [
+      "effects/player/death/01",
+      "effects/player/death/02",
+      "effects/player/death/03",
+      "effects/player/death/04"
+    ]
+  },
+  "fire.ignite": {
+    "category": "block",
+    "sounds": [
+      "effects/fire/ignite/01",
+      "effects/fire/ignite/02",
+      "effects/fire/ignite/03"
+    ]
+  },
+  "item.fireCharge.use": {
+    "category": "block",
+    "sounds": [
+      "effects/fire/ignite/01",
+      "effects/fire/ignite/02",
+      "effects/fire/ignite/03"
+    ]
+  },
+  "fireworks.blast": {
+    "category": "ambient",
+    "sounds": [
+      "effects/fireworks/burst/01",
+      "effects/fireworks/burst/02",
+      "effects/fireworks/burst/03",
+      "effects/fireworks/burst/04",
+      "effects/fireworks/burst/05",
+      "effects/fireworks/burst/06",
+      "effects/fireworks/burst/07"
+    ]
+  },
+  "fireworks.blast_far": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "effects/fireworks/burst/01",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/02",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/03",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/04",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/05",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/06",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/07",
+        "volume": 0.5,
+        "pitch": 1
+      }
+    ]
+  },
+  "fireworks.largeBlast": {
+    "category": "ambient",
+    "sounds": [
+      "effects/fireworks/burst/01",
+      "effects/fireworks/burst/02",
+      "effects/fireworks/burst/03",
+      "effects/fireworks/burst/04",
+      "effects/fireworks/burst/05",
+      "effects/fireworks/burst/06",
+      "effects/fireworks/burst/07"
+    ]
+  },
+  "fireworks.largeBlast_far": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "effects/fireworks/burst/01",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/02",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/03",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/04",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/05",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/06",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/07",
+        "volume": 0.5,
+        "pitch": 1
+      }
+    ]
+  },
+  "fireworks.launch": {
+    "category": "ambient",
+    "sounds": [
+      "effects/fireworks/launch/01",
+      "effects/fireworks/launch/02",
+      "effects/fireworks/launch/03"
+    ]
+  },
+  "fireworks.twinkle": {
+    "category": "ambient",
+    "sounds": [
+      "effects/fireworks/burst/01",
+      "effects/fireworks/burst/02",
+      "effects/fireworks/burst/03",
+      "effects/fireworks/burst/04",
+      "effects/fireworks/burst/05",
+      "effects/fireworks/burst/06",
+      "effects/fireworks/burst/07"
+    ]
+  },
+  "fireworks.twinkle_far": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "effects/fireworks/burst/01",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/02",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/03",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/04",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/05",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/06",
+        "volume": 0.5,
+        "pitch": 1
+      },
+      {
+        "name": "effects/fireworks/burst/07",
+        "volume": 0.5,
+        "pitch": 1
+      }
+    ]
+  },
+  "note.bass": {
+    "category": "record",
+    "sounds": [
+      "effects/notes/bass/01",
+      "effects/notes/bass/02"
+    ]
+  },
+  "note.bassattack": {
+    "category": "record",
+    "sounds": [
+      "effects/notes/bass/01",
+      "effects/notes/bass/02"
+    ]
+  },
+  "note.bd": {
+    "category": "record",
+    "sounds": [
+      "effects/notes/kick/01"
+    ]
+  },
+  "note.harp": {
+    "category": "record",
+    "sounds": [
+      "effects/notes/keys/01",
+      "effects/notes/keys/02"
+    ]
+  },
+  "note.hat": {
+    "category": "record",
+    "sounds": [
+      "effects/notes/brush/01"
+    ]
+  },
+  "note.pling": {
+    "category": "record",
+    "sounds": [
+      "effects/notes/keys/01",
+      "effects/notes/keys/02"
+    ]
+  },
+  "note.snare": {
+    "category": "record",
+    "sounds": [
+      "effects/notes/brush/01"
+    ]
+  },
+  "portal.portal": {
+    "category": "block",
+    "sounds": [
+      "effects/magic/rift/01",
+      "effects/magic/rift/02",
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03",
+      "effects/fire/ignite/01",
+      "effects/fire/ignite/02",
+      "effects/fire/ignite/03",
+      "effects/magic/rift/09"
+    ]
+  },
+  "portal.travel": {
+    "category": "player",
+    "sounds": [
+      "effects/magic/rift/01",
+      "effects/magic/rift/02",
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03",
+      "effects/fire/ignite/01",
+      "effects/fire/ignite/02",
+      "effects/fire/ignite/03",
+      "effects/magic/rift/09"
+    ]
+  },
+  "portal.trigger": {
+    "category": "block",
+    "sounds": [
+      "effects/magic/rift/01",
+      "effects/magic/rift/02",
+      "effects/magic/fire/01",
+      "effects/magic/fire/02",
+      "effects/magic/fire/03",
+      "effects/fire/ignite/01",
+      "effects/fire/ignite/02",
+      "effects/fire/ignite/03",
+      "effects/magic/rift/09"
+    ]
+  },
+  "random.anvil_break": {
+    "category": "block",
+    "sounds": [
+      "effects/metal/forging/break"
+    ]
+  },
+  "random.anvil_land": {
+    "category": "block",
+    "sounds": [
+      "effects/metal/forging/land"
+    ]
+  },
+  "random.anvil_use": {
+    "category": "block",
+    "sounds": [
+      "effects/metal/forging/use-01",
+      "effects/metal/forging/use-02"
+    ]
+  },
+  "random.bow": {
+    "category": "neutral",
+    "sounds": [
+      "effects/weapons/longbow-release"
+    ]
+  },
+  "random.bowhit": {
+    "category": "neutral",
+    "sounds": [
+      "effects/weapons/arrow-solid"
+    ]
+  },
+  "random.break": {
+    "category": "player",
+    "sounds": [
+      "effects/material-wood-break/01",
+      "effects/material-wood-break/02",
+      "effects/material-wood-break/03",
+      "effects/material-wood-break/04",
+      "effects/material-wood-break/05"
+    ]
+  },
+  "random.burp": {
+    "category": "player",
+    "sounds": [
+      "effects/player/burp/01",
+      "effects/player/burp/02"
+    ]
+  },
+  "random.chestclosed": {
+    "category": "block",
+    "sounds": [
+      "effects/doors/close/01",
+      "effects/doors/close/02",
+      "effects/doors/close/03",
+      "effects/doors/close/04"
+    ]
+  },
+  "random.chestopen": {
+    "category": "block",
+    "sounds": [
+      "effects/doors/open/01",
+      "effects/doors/open/02"
+    ]
+  },
+  "gui.button.press": {
+    "category": "master",
+    "sounds": [
+      "effects/interface/click/01",
+      "effects/interface/click/02",
+      "effects/interface/click/03"
+    ]
+  },
+  "random.click": {
+    "category": "block",
+    "sounds": [
+      "effects/interface/click/01",
+      "effects/interface/click/02",
+      "effects/interface/click/03"
+    ]
+  },
+  "random.door_close": {
+    "category": "block",
+    "sounds": [
+      "effects/doors/close/01",
+      "effects/doors/close/02",
+      "effects/doors/close/03",
+      "effects/doors/close/04"
+    ]
+  },
+  "random.door_open": {
+    "category": "block",
+    "sounds": [
+      "effects/doors/open/01",
+      "effects/doors/open/02"
+    ]
+  },
+  "random.drink": {
+    "category": "player",
+    "sounds": [
+      "effects/player/drink/01",
+      "effects/player/drink/02"
+    ]
+  },
+  "random.eat": {
+    "category": "player",
+    "sounds": [
+      "effects/player/eat/01",
+      "effects/player/eat/02",
+      "effects/player/eat/03",
+      "effects/player/eat/04"
+    ]
+  },
+  "random.explode": {
+    "category": "block",
+    "sounds": [
+      "effects/explosions/clear/01",
+      "effects/explosions/clear/02",
+      "effects/explosions/clear/03"
+    ]
+  },
+  "random.fizz": {
+    "category": "block",
+    "sounds": [
+      "effects/fire/ignite/01",
+      "effects/fire/ignite/02",
+      "effects/fire/ignite/03"
+    ]
+  },
+  "game.tnt.primed": {
+    "category": "block",
+    "sounds": [
+      "effects/charges/fuse-tnt"
+    ]
+  },
+  "creeper.primed": {
+    "category": "hostile",
+    "sounds": [
+      "effects/charges/fuse-stalker"
+    ]
+  },
+  "random.levelup": {
+    "category": "player",
+    "sounds": [
+      "effects/rewards/level/01"
+    ]
+  },
+  "random.orb": {
+    "category": "player",
+    "sounds": [
+      "effects/rewards/pickup/01",
+      "effects/rewards/pickup/02",
+      "effects/rewards/pickup/03",
+      "effects/rewards/pickup/04"
+    ]
+  },
+  "random.pop": {
+    "category": "player",
+    "sounds": [
+      "effects/rewards/pickup/01",
+      "effects/rewards/pickup/02",
+      "effects/rewards/pickup/03",
+      "effects/rewards/pickup/04"
+    ]
+  },
+  "random.successful_hit": {
+    "category": "player",
+    "sounds": [
+      "effects/rewards/pickup/01",
+      "effects/rewards/pickup/02",
+      "effects/rewards/pickup/03",
+      "effects/rewards/pickup/04"
+    ]
+  },
+  "random.wood_click": {
+    "category": "block",
+    "sounds": [
+      "effects/interface/wood/01"
+    ]
+  },
+  "tile.piston.in": {
+    "category": "block",
+    "sounds": [
+      "effects/mechanisms/latch/01"
+    ]
+  },
+  "tile.piston.out": {
+    "category": "block",
+    "sounds": [
+      "effects/mechanisms/latch/01"
+    ]
+  },
+  "player.breath": {
+    "category": "player",
+    "sounds": [
+      "effects/player/breath/01"
+    ]
+  },
+  "player.strain": {
+    "category": "player",
+    "sounds": [
+      "effects/player/hurt/01",
+      "effects/player/hurt/02",
+      "effects/player/hurt/03",
+      "effects/player/hurt/04",
+      "effects/player/hurt/05"
+    ]
+  },
+  "block.redstone.place": {
+    "category": "block",
+    "sounds": [
+      "effects/circuits/redstone-place/01",
+      "effects/circuits/redstone-place/02",
+      "effects/circuits/redstone-place/03"
+    ]
+  },
+  "block.tnt.place": {
+    "category": "block",
+    "sounds": [
+      "effects/charges/place/01",
+      "effects/charges/place/02",
+      "effects/charges/place/03"
+    ]
+  },
+  "block.lever.on": {
+    "category": "block",
+    "sounds": [
+      "effects/circuits/lever-on"
+    ]
+  },
+  "block.lever.off": {
+    "category": "block",
+    "sounds": [
+      "effects/circuits/lever-off"
+    ]
+  },
+  "block.torch.burn": {
+    "category": "ambient",
+    "sounds": [
+      "effects/fire/torch-low"
+    ]
+  },
+  "entity.arrow.hit": {
+    "category": "player",
+    "sounds": [
+      "effects/weapons/arrow-body"
+    ]
+  },
+  "block.dispenser.fail": {
+    "category": "block",
+    "sounds": [
+      "effects/circuits/lever-off"
+    ]
+  },
+  "block.dispenser.dispense": {
+    "category": "block",
+    "sounds": [
+      "effects/mechanisms/latch/01"
+    ]
+  },
+  "entity.projectile.throw": {
+    "category": "player",
+    "sounds": [
+      "effects/weapons/swings/01",
+      "effects/weapons/swings/02",
+      "effects/weapons/swings/03"
+    ]
+  }
+}

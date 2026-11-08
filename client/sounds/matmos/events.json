@@ -1,0 +1,1806 @@
+{
+  "matmos_hl.loop.wind_novege": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/wind_novege",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_novege_night": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/wind_novege_night",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.cricketz_night": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/cricketz_night",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.mountain_wind": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/mountain_wind",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_winter": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/wind_winter",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_novege_indoors": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/wind_novege_indoors",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_forest": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/wind_forest",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_forest_night": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/wind_forest_night",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_forest_indoors": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/wind_forest_indoors",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.torch": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/torch",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.ice": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/ice",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.sand": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/sand",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.cave_a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/cave_a",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.cave_b": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/cave_b",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.water_medium": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/water_medium",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.water_large": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/water_large",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.waves_medium": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/waves_medium",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.underwater_direct": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/underwater_direct",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.underwater_indirect": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/underwater_indirect",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/rain",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain_indoors": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/rain_indoors",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain_lake": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/rain_lake",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain_window": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/rain_window",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain_thunder": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/rain_thunder",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain_thunder_indoors": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/rain_thunder_indoors",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.snow": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/snow",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.nether": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/nether",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.nether_indoors": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/nether_indoors",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.raw_wind": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/raw_wind",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.end_wind": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/end_wind",
+        "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.end_wind_indoors": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/loop/end_wind_indoors",
+        "stream": true
+      }
+    ]
+  },
+  "matmos.zen.sfx.torchlit": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/zen/sfx/torchlit"
+      }
+    ]
+  },
+  "matmos_extras.chimes_bamboo": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_extras/chimes_bamboo"
+      }
+    ]
+  },
+  "matmos_extras.chimes_loop": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_extras/chimes_loop"
+      }
+    ]
+  },
+  "matmos_extras.minecart": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_extras/minecart1"
+      },
+      {
+        "name": "matmos/default/matmos_extras/minecart2"
+      },
+      {
+        "name": "matmos/default/matmos_extras/minecart3"
+      },
+      {
+        "name": "matmos/default/matmos_extras/minecart4"
+      }
+    ]
+  },
+  "matmos_extras.positive_action": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_extras/positive_action"
+      }
+    ]
+  },
+  "matmos_extras.simple_signal": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_extras/simple_signal"
+      }
+    ]
+  },
+  "matmos_hl.atmosphere.cave_hit": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/cave_hit1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/cave_hit2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/cave_hit3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/cave_hit4"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/cave_hit5"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/cave_hit6"
+      }
+    ]
+  },
+  "matmos_hl.atmosphere.citadeloutsidefx": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/citadeloutsidefx1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/citadeloutsidefx2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/citadeloutsidefx3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/citadeloutsidefx4"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/citadeloutsidefx5"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/citadeloutsidefx6"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/citadeloutsidefx7"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/citadeloutsidefx8"
+      },
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/citadeloutsidefx9"
+      }
+    ]
+  },
+  "matmos_hl.atmosphere.flame_thrower_fire_hit": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/flame_thrower_fire_hit"
+      }
+    ]
+  },
+  "matmos_hl.atmosphere.plaza_amb": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/atmosphere/plaza_amb"
+      }
+    ]
+  },
+  "matmos_hl.cave.rumble": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/cave/rumble1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/cave/rumble2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/cave/rumble3"
+      }
+    ]
+  },
+  "matmos_hl.stereo.rainhittingwindows": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/stereo/rainhittingwindows"
+      }
+    ]
+  },
+  "matmos_hl.stereo.treeoflife": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/stereo/treeoflife"
+      }
+    ]
+  },
+  "matmos_hl.water.lake": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/water/lake1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/water/lake2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/water/lake3"
+      }
+    ]
+  },
+  "matmos_hl.water.rain_drip": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/water/rain_drip1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/water/rain_drip2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/water/rain_drip3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/water/rain_drip4"
+      }
+    ]
+  },
+  "matmos_hl.water.wave": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/water/wave1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/water/wave2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/water/wave3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/water/wave4"
+      },
+      {
+        "name": "matmos/default/matmos_hl/water/wave5"
+      },
+      {
+        "name": "matmos/default/matmos_hl/water/wave6"
+      }
+    ]
+  },
+  "matmos_hl.weather.rainonwindow": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/weather/rainonwindow1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/weather/rainonwindow2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/weather/rainonwindow3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/weather/rainonwindow4"
+      },
+      {
+        "name": "matmos/default/matmos_hl/weather/rainonwindow5"
+      },
+      {
+        "name": "matmos/default/matmos_hl/weather/rainonwindow6"
+      }
+    ]
+  },
+  "matmos_hl.weather.thunder": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/weather/thunder1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/weather/thunder2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/weather/thunder3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/weather/thunder4"
+      }
+    ]
+  },
+  "matmos_hl.wildlife.chicka": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wildlife/chicka1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/chicka2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/chicka3"
+      }
+    ]
+  },
+  "matmos_hl.wildlife.chirp": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wildlife/chirp1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/chirp2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/chirp3"
+      }
+    ]
+  },
+  "matmos_hl.wildlife.coastbird": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wildlife/coastbird1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/coastbird2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/coastbird3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/coastbird4"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/coastbird5"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/coastbird6"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/coastbird7"
+      }
+    ]
+  },
+  "matmos_hl.wildlife.critter": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wildlife/critter1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/critter2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/critter3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/critter4"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/critter5"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/critter6"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/critter7"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/critter8"
+      }
+    ]
+  },
+  "matmos_hl.wildlife.flit": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wildlife/flit1"
+      }
+    ]
+  },
+  "matmos_hl.wildlife.seagulls_ambient": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wildlife/seagulls_ambient1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/seagulls_ambient2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/seagulls_ambient3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/seagulls_ambient4"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/seagulls_ambient5"
+      }
+    ]
+  },
+  "matmos_hl.wildlife.squeek": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wildlife/squeek1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/squeek2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wildlife/squeek3"
+      }
+    ]
+  },
+  "matmos_hl.wind.treewind": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wind/treewind1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/treewind2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/treewind3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/treewind4"
+      }
+    ]
+  },
+  "matmos_hl.wind.wind_hit": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_hit1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_hit2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_hit3"
+      }
+    ]
+  },
+  "matmos_hl.wind.wind_moan": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_moan1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_moan2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_moan3"
+      }
+    ]
+  },
+  "matmos_hl.wind.wind_rooftop": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_rooftop1"
+      }
+    ]
+  },
+  "matmos_hl.wind.wind_snippet": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_snippet1"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_snippet2"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_snippet3"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_snippet4"
+      },
+      {
+        "name": "matmos/default/matmos_hl/wind/wind_snippet5"
+      }
+    ]
+  },
+  "matmos_hl.wind.windgust": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wind/windgust"
+      }
+    ]
+  },
+  "matmos_hl.wind.windgust_strong": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wind/windgust_strong"
+      }
+    ]
+  },
+  "matmos_hl.wind.windmill_wind_loop": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_hl/wind/windmill_wind_loop1"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_attack_a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_attack_a"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_attack_b": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_attack_b"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_attack_c": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_attack_c"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_attack_d": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_attack_d"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_attack_e": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_attack_e"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_draw": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_draw"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_hit_a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_hit_a"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_hit_b": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_hit_b"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_hit_c": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_hit_c"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_hit_d": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_hit_d"
+      }
+    ]
+  },
+  "matmos_interactions.blunt_hit_e": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/blunt_hit_e"
+      }
+    ]
+  },
+  "matmos_interactions.bow_flame_a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/bow_flame_a"
+      }
+    ]
+  },
+  "matmos_interactions.bow_flame_b": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/bow_flame_b"
+      }
+    ]
+  },
+  "matmos_interactions.bow_flame_c": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/bow_flame_c"
+      }
+    ]
+  },
+  "matmos_interactions.bow_draw": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/bow_draw"
+      }
+    ]
+  },
+  "matmos_interactions.bow_stretch_a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/bow_stretch_a"
+      }
+    ]
+  },
+  "matmos_interactions.bow_stretch_b": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/bow_stretch_b"
+      }
+    ]
+  },
+  "matmos_interactions.bow_stretch_c": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/bow_stretch_c"
+      }
+    ]
+  },
+  "matmos_interactions.bow_stretch_d": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/bow_stretch_d"
+      }
+    ]
+  },
+  "matmos_interactions.bow_stretch_e": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/bow_stretch_e"
+      }
+    ]
+  },
+  "matmos_interactions.crit_emit_a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/crit_emit_a"
+      }
+    ]
+  },
+  "matmos_interactions.crit_emit_b": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/crit_emit_b"
+      }
+    ]
+  },
+  "matmos_interactions.crit_emit_c": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/crit_emit_c"
+      }
+    ]
+  },
+  "matmos_interactions.fire_burst": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/fire_burst"
+      }
+    ]
+  },
+  "matmos_interactions.food_draw": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/food_draw"
+      }
+    ]
+  },
+  "matmos_interactions.generic_draw": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/generic_draw"
+      }
+    ]
+  },
+  "matmos_interactions.speed_wind": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/speed_wind"
+      }
+    ]
+  },
+  "matmos_interactions.sword_attack_a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_attack_a"
+      }
+    ]
+  },
+  "matmos_interactions.sword_attack_b": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_attack_b"
+      }
+    ]
+  },
+  "matmos_interactions.sword_attack_c": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_attack_c"
+      }
+    ]
+  },
+  "matmos_interactions.sword_attack_d": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_attack_d"
+      }
+    ]
+  },
+  "matmos_interactions.sword_attack_e": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_attack_e"
+      }
+    ]
+  },
+  "matmos_interactions.sword_attack_f": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_attack_f"
+      }
+    ]
+  },
+  "matmos_interactions.sword_attack_g": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_attack_g"
+      }
+    ]
+  },
+  "matmos_interactions.sword_attack_h": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_attack_h"
+      }
+    ]
+  },
+  "matmos_interactions.sword_attack_i": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_attack_i"
+      }
+    ]
+  },
+  "matmos_interactions.sword_draw": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_draw"
+      }
+    ]
+  },
+  "matmos_interactions.sword_hit_a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_hit_a"
+      }
+    ]
+  },
+  "matmos_interactions.sword_hit_b": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_hit_b"
+      }
+    ]
+  },
+  "matmos_interactions.sword_hit_c": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_hit_c"
+      }
+    ]
+  },
+  "matmos_interactions.sword_hit_d": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/sword_hit_d"
+      }
+    ]
+  },
+  "matmos_interactions.tool_draw": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/tool_draw"
+      }
+    ]
+  },
+  "matmos_interactions.tool_swing": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/tool_swing"
+      }
+    ]
+  },
+  "matmos_interactions.utility_draw": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/utility_draw"
+      }
+    ]
+  },
+  "matmos_interactions.water_divein": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_divein"
+      }
+    ]
+  },
+  "matmos_interactions.water_jumpin": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_jumpin"
+      }
+    ]
+  },
+  "matmos_interactions.water_underwater_a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_underwater_a"
+      }
+    ]
+  },
+  "matmos_interactions.water_underwater_b": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_underwater_b"
+      }
+    ]
+  },
+  "matmos_interactions.water_underwater_c": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_underwater_c"
+      }
+    ]
+  },
+  "matmos_interactions.water_underwater_d": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_underwater_d"
+      }
+    ]
+  },
+  "matmos_interactions.water_underwater_loop": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_underwater_stream"
+      }
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.citadeloutsidefx1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/citadeloutsidefx1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.citadeloutsidefx2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/citadeloutsidefx2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.citadeloutsidefx3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/citadeloutsidefx3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.citadeloutsidefx4": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/citadeloutsidefx4"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.citadeloutsidefx5": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/citadeloutsidefx5"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.citadeloutsidefx6": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/citadeloutsidefx6"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.citadeloutsidefx7": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/citadeloutsidefx7"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.citadeloutsidefx8": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/citadeloutsidefx8"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.citadeloutsidefx9": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/citadeloutsidefx9"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.wind_moan1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/wind_moan1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.wind_moan2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/wind_moan2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.wind_moan3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/wind_moan3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.wave1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/wave1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.wave2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/wave2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.wave3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/wave3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.wave4": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/wave4"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.wave5": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/wave5"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.wave6": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/wave6"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.chicka1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/chicka1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.chicka2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/chicka2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.chicka3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/chicka3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.chirp1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/chirp1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.chirp2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/chirp2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.chirp3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/chirp3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.flit1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/flit1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.squeek1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/squeek1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.squeek2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/squeek2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.squeek3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/squeek3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.cave.rumble1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/cave/rumble1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.cave.rumble2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/cave/rumble2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.cave.rumble3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/cave/rumble3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.coastbird1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/coastbird1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.coastbird2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/coastbird2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.coastbird3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/coastbird3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.coastbird4": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/coastbird4"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.coastbird5": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/coastbird5"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.coastbird6": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/coastbird6"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.coastbird7": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/coastbird7"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.rain_drip1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/rain_drip1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.rain_drip2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/rain_drip2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.rain_drip3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/rain_drip3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.rain_drip4": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/rain_drip4"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.lake1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/lake1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.lake2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/lake2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.water.lake3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/water/lake3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.critter1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/critter1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.critter2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/critter2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.critter3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/critter3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.critter4": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/critter4"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.critter5": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/critter5"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.critter6": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/critter6"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.critter7": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/critter7"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.critter8": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/critter8"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.weather.rainonwindow1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/weather/rainonwindow1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.weather.rainonwindow2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/weather/rainonwindow2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.weather.rainonwindow3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/weather/rainonwindow3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.weather.rainonwindow4": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/weather/rainonwindow4"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.weather.rainonwindow5": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/weather/rainonwindow5"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.weather.rainonwindow6": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/weather/rainonwindow6"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.cave_hit1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/cave_hit1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.cave_hit2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/cave_hit2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.cave_hit3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/cave_hit3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.cave_hit4": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/cave_hit4"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.cave_hit5": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/cave_hit5"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.atmosphere.cave_hit6": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/atmosphere/cave_hit6"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.seagulls_ambient1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/seagulls_ambient1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.seagulls_ambient2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/seagulls_ambient2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.seagulls_ambient3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/seagulls_ambient3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.seagulls_ambient4": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/seagulls_ambient4"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wildlife.seagulls_ambient5": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wildlife/seagulls_ambient5"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.weather.thunder1": {
+    "category": "weather",
+    "sounds": [
+      "matmos/default/matmos_hl/weather/thunder1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.weather.thunder2": {
+    "category": "weather",
+    "sounds": [
+      "matmos/default/matmos_hl/weather/thunder2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.weather.thunder3": {
+    "category": "weather",
+    "sounds": [
+      "matmos/default/matmos_hl/weather/thunder3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.weather.thunder4": {
+    "category": "weather",
+    "sounds": [
+      "matmos/default/matmos_hl/weather/thunder4"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.treewind1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/treewind1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.treewind2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/treewind2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.treewind3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/treewind3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.treewind4": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/treewind4"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.wind_hit1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/wind_hit1"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.wind_hit2": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/wind_hit2"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.wind_hit3": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/wind_hit3"
+    ]
+  },
+  "matmos.clip.default.matmos_hl.wind.windmill_wind_loop1": {
+    "category": "ambient",
+    "sounds": [
+      "matmos/default/matmos_hl/wind/windmill_wind_loop1"
+    ]
+  },
+  "matmos.clip.default.damage.fallbig1": {
+    "category": "player",
+    "sounds": [
+      "matmos/default/damage/fallbig1"
+    ]
+  },
+  "matmos.clip.default.damage.fallbig2": {
+    "category": "player",
+    "sounds": [
+      "matmos/default/damage/fallbig2"
+    ]
+  },
+  "matmos.clip.default.matmos_extras.minecart1": {
+    "category": "player",
+    "sounds": [
+      "matmos/default/matmos_extras/minecart1"
+    ]
+  },
+  "matmos.clip.default.matmos_extras.minecart2": {
+    "category": "player",
+    "sounds": [
+      "matmos/default/matmos_extras/minecart2"
+    ]
+  },
+  "matmos.clip.default.matmos_extras.minecart3": {
+    "category": "player",
+    "sounds": [
+      "matmos/default/matmos_extras/minecart3"
+    ]
+  },
+  "matmos.clip.default.matmos_extras.minecart4": {
+    "category": "player",
+    "sounds": [
+      "matmos/default/matmos_extras/minecart4"
+    ]
+  },
+  "matmos.gui.open": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_extras/simple_signal",
+        "volume": 0.22
+      }
+    ]
+  },
+  "matmos.gui.close": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_extras/simple_signal",
+        "volume": 0.15,
+        "pitch": 0.85
+      }
+    ]
+  },
+  "gui.button.press": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_extras/positive_action",
+        "volume": 0.4
+      }
+    ]
+  },
+  "game.player.swim.splash": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_jumpin"
+      }
+    ]
+  },
+  "game.neutral.swim.splash": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_jumpin"
+      }
+    ]
+  },
+  "game.hostile.swim.splash": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_jumpin"
+      }
+    ]
+  },
+  "random.splash": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_interactions/water_jumpin"
+      }
+    ]
+  },
+  "minecart.base": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_extras/minecart1"
+      },
+      {
+        "name": "matmos/default/matmos_extras/minecart2"
+      },
+      {
+        "name": "matmos/default/matmos_extras/minecart3"
+      },
+      {
+        "name": "matmos/default/matmos_extras/minecart4"
+      }
+    ]
+  },
+  "minecart.inside": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "matmos/default/matmos_extras/minecart1"
+      },
+      {
+        "name": "matmos/default/matmos_extras/minecart2"
+      },
+      {
+        "name": "matmos/default/matmos_extras/minecart3"
+      },
+      {
+        "name": "matmos/default/matmos_extras/minecart4"
+      }
+    ]
+  },
+  "game.player.hurt.fall.big": {
+    "category": "player",
+    "sounds": [
+      "matmos/default/damage/fallbig1",
+      "matmos/default/damage/fallbig2"
+    ]
+  },
+  "game.neutral.hurt.fall.big": {
+    "category": "neutral",
+    "sounds": [
+      "matmos/default/damage/fallbig1",
+      "matmos/default/damage/fallbig2"
+    ]
+  },
+  "game.hostile.hurt.fall.big": {
+    "category": "hostile",
+    "sounds": [
+      "matmos/default/damage/fallbig1",
+      "matmos/default/damage/fallbig2"
+    ]
+  }
+}

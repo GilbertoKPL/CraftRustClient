@@ -1,0 +1,452 @@
+{
+  "license": "mixed-see-sources",
+  "changes": "Selection, excerpts, resampling, mono conversion for positional effects, EQ, gain and fades. Compositions remain credited to their authors.",
+  "sources": [
+    {
+      "id": "creatures2",
+      "page": "https://opengameart.org/content/80-cc0-creture-sfx-2",
+      "url": "https://opengameart.org/sites/default/files/80-CC0-creature-sfx-2.zip",
+      "file": "creatures2.zip",
+      "license": "CC0-1.0",
+      "sha256": "6d251aeaaaa9c2fffed8fc2f64bab3104725ceabf9259a8441994e7a20cfe22f",
+      "creator": "rubberduck",
+      "title": "creatures2"
+    },
+    {
+      "id": "rpg2",
+      "page": "https://opengameart.org/content/80-cc0-rpg-sfx",
+      "url": "https://opengameart.org/sites/default/files/80-CC0-RPG-SFX_0.zip",
+      "file": "rpg2.zip",
+      "license": "CC0-1.0",
+      "sha256": "1c2f06ff4e8563b5b8b745b23cf213c1474142a69bb82bd8f5e10d9b3f7a7bbd",
+      "creator": "rubberduck",
+      "title": "rpg2"
+    },
+    {
+      "id": "loops",
+      "page": "https://opengameart.org/content/30-cc0-sfx-loops",
+      "url": "https://opengameart.org/sites/default/files/sfx_loops.zip",
+      "file": "loops.zip",
+      "license": "CC0-1.0",
+      "sha256": "9c013474c7e56192a0d1b2840535a1e1d8b93166948d4a9f7136bb6c3d5421cd",
+      "creator": "rubberduck",
+      "title": "loops"
+    },
+    {
+      "id": "bangs",
+      "page": "https://opengameart.org/content/25-cc0-bang-firework-sfx",
+      "url": "https://opengameart.org/sites/default/files/25-CC0-bang-sfx.zip",
+      "file": "bangs.zip",
+      "license": "CC0-1.0",
+      "sha256": "c0c9ecc11e2dc0d190f0cced755569858234b8528286bc83becb6314c663407f",
+      "creator": "rubberduck",
+      "title": "bangs"
+    },
+    {
+      "id": "mystical-piano",
+      "page": "https://opengameart.org/content/mystical-piano",
+      "url": "https://opengameart.org/sites/default/files/Mystical%20Piano.Wav",
+      "file": "mystical-piano.wav",
+      "license": "CC0-1.0",
+      "sha256": "e87ccffc94434be0d94dd91113725c13a42a88805f4091e5cecc7008fe8ba82d",
+      "creator": "Indieteur",
+      "title": "Mystical Piano"
+    },
+    {
+      "id": "waiting-ii",
+      "page": "https://opengameart.org/content/waiting-ii",
+      "url": "https://opengameart.org/sites/default/files/Waiting%20II_0.ogg",
+      "file": "waiting-ii.ogg",
+      "license": "CC0-1.0",
+      "sha256": "1f8c6eaf06d1416cbf9eadb48d65b087730d58dd7c5a1b1f107d0d025452207d",
+      "creator": "Kistol",
+      "title": "Waiting II"
+    },
+    {
+      "id": "vaporware",
+      "page": "https://opengameart.org/content/calm-piano-1-vaporware",
+      "url": "https://opengameart.org/sites/default/files/003_Vaporware_2.mp3",
+      "file": "vaporware.mp3",
+      "license": "CC0-1.0",
+      "sha256": "1697fa1b7ed6f3fe1eca4daa4f9d1a2eb3db8fe40a0f3c283529ab47e57b5b38",
+      "creator": "The Cynic Project / cynicmusic",
+      "title": "Vaporware"
+    },
+    {
+      "id": "animal-cow",
+      "creator": "qubodup",
+      "title": "cow",
+      "page": "https://freesound.org/people/qubodup/sounds/181955/",
+      "url": "https://cdn.freesound.org/previews/181/181955_71257-hq.mp3",
+      "file": "animal-cow.mp3",
+      "license": "CC0-1.0",
+      "sha256": "5cdd219763c95983ad9d2a65ea1a3e4f602650e295c090a259a62847f7a22262"
+    },
+    {
+      "id": "animal-pig",
+      "creator": "egomassive",
+      "title": "pig",
+      "page": "https://freesound.org/people/egomassive/sounds/536746/",
+      "url": "https://cdn.freesound.org/previews/536/536746_1415754-hq.mp3",
+      "file": "animal-pig.mp3",
+      "license": "CC0-1.0",
+      "sha256": "3d13ee49765e6d359f360b6e699b3466836e16ec8ff5cff71478c7126a008a89"
+    },
+    {
+      "id": "animal-sheep",
+      "creator": "Garuda1982",
+      "title": "sheep",
+      "page": "https://freesound.org/people/Garuda1982/sounds/428103/",
+      "url": "https://cdn.freesound.org/previews/428/428103_2061858-hq.mp3",
+      "file": "animal-sheep.mp3",
+      "license": "CC0-1.0",
+      "sha256": "00db14a8a321ed45e45e7214c5f9520ddaeb72e429d7e93c1142015f8b85a40e"
+    },
+    {
+      "id": "animal-chicken",
+      "creator": "evsecrets",
+      "title": "chicken",
+      "page": "https://freesound.org/people/evsecrets/sounds/346961/",
+      "url": "https://cdn.freesound.org/previews/346/346961_2367065-hq.mp3",
+      "file": "animal-chicken.mp3",
+      "license": "CC0-1.0",
+      "sha256": "23a58668f05280ea27800eb359bcb8c7b02f2c638dccb22c08018c49f28cbb88"
+    },
+    {
+      "id": "animal-horse",
+      "title": "horse",
+      "creator": "Salsero_classic",
+      "page": "https://freesound.org/people/Salsero_classic/sounds/826753/",
+      "url": "https://cdn.freesound.org/previews/826/826753_3339822-hq.mp3",
+      "file": "animal-horse.mp3",
+      "license": "CC0-1.0",
+      "sha256": "e788ddfbff5820bdc116950585d3f36784d772007f6eb921618ccf95b8143b3c"
+    },
+    {
+      "id": "animal-dog",
+      "title": "dog",
+      "creator": "UnderlinedDesigns",
+      "page": "https://freesound.org/people/UnderlinedDesigns/sounds/191687/",
+      "url": "https://cdn.freesound.org/previews/191/191687_2213158-hq.mp3",
+      "file": "animal-dog.mp3",
+      "license": "CC0-1.0",
+      "sha256": "bbb3d6fdedbba3c8b100467f74bef4fcc3abe9fe3f7136bee875a789228ce568"
+    },
+    {
+      "id": "animal-cat",
+      "title": "cat",
+      "creator": "IgnasD",
+      "page": "https://opengameart.org/content/meow",
+      "url": "https://opengameart.org/sites/default/files/Meow.ogg",
+      "file": "animal-cat.ogg",
+      "license": "CC0-1.0",
+      "sha256": "ae35c578eb7e7bc33d1dc7b2532cf4cdc8dac27f8cf28c6d574fb3027be83d5f"
+    },
+    {
+      "id": "animal-rabbit",
+      "title": "rabbit",
+      "creator": "Voltiment555",
+      "page": "https://opengameart.org/content/rabbit-eating",
+      "url": "https://opengameart.org/sites/default/files/RabbitEating.wav",
+      "file": "animal-rabbit.wav",
+      "license": "CC0-1.0",
+      "sha256": "f6ccbfdde9880fb33df0ba28356f34f5e45e380ad15d98661b42be4213d3b49a"
+    },
+    {
+      "id": "animal-purr",
+      "title": "purr",
+      "creator": "Sadiquecat",
+      "page": "https://freesound.org/people/Sadiquecat/sounds/695630/",
+      "url": "https://cdn.freesound.org/previews/695/695630_5287430-hq.mp3",
+      "file": "animal-purr.mp3",
+      "license": "CC0-1.0",
+      "sha256": "580cbad6df089e608ea97d901767a34f6d4e14248aada40065f05763757e9f7c"
+    },
+    {
+      "id": "nature-fire",
+      "title": "nature-fire",
+      "creator": "kingsrow",
+      "page": "https://freesound.org/people/kingsrow/sounds/181563/",
+      "url": "https://cdn.freesound.org/previews/181/181563_1857065-hq.mp3",
+      "file": "nature-fire.mp3",
+      "license": "CC0-1.0",
+      "sha256": "f06ff554e43415d6fe1d83d00d964c93f8a3b1c1ec7c5b59e4e6c4383dd4c591"
+    },
+    {
+      "id": "animal-donkey",
+      "title": "animal-donkey",
+      "creator": "TheKingOfGeeks360",
+      "page": "https://freesound.org/people/TheKingOfGeeks360/sounds/842289/",
+      "url": "https://cdn.freesound.org/previews/842/842289_15895934-hq.mp3",
+      "file": "animal-donkey.mp3",
+      "license": "CC0-1.0",
+      "sha256": "3bece8230738003f09b1dad8682960c75d40e9679d19b8b5bf540140b300da93"
+    },
+    {
+      "id": "nature-thunder",
+      "title": "Thunder",
+      "creator": "Emulius",
+      "page": "https://freesound.org/people/Emulius/sounds/744723/",
+      "url": "https://cdn.freesound.org/previews/744/744723_10934718-hq.mp3",
+      "file": "nature-thunder.mp3",
+      "license": "CC0-1.0",
+      "sha256": "9389c794358d9322b3e48b51a72fcff5a5f6a0747e2485761fddb6b64ed4f851"
+    },
+    {
+      "id": "nature-thunder2",
+      "title": "Thunder",
+      "creator": "Emulius",
+      "page": "https://freesound.org/people/Emulius/sounds/744718/",
+      "url": "https://cdn.freesound.org/previews/744/744718_10934718-hq.mp3",
+      "file": "nature-thunder2.mp3",
+      "license": "CC0-1.0",
+      "sha256": "483e43df9a7d32fac24f2d7cb7869b8c602340120b54b88cd03e31bdd77fc4fe"
+    },
+    {
+      "id": "crystal-cave-song18",
+      "title": "Crystal Cave (song18)",
+      "creator": "The Cynic Project / cynicmusic",
+      "page": "https://opengameart.org/content/crystal-cave-song18",
+      "url": "https://opengameart.org/sites/default/files/song18_0.mp3",
+      "file": "crystal-cave-song18.mp3",
+      "license": "CC0-1.0",
+      "sha256": "42349d7c615fe947866100a90289d61a1e64620e11f2d041b37166eaaa4e5840"
+    },
+    {
+      "id": "mysterious-ambience-song21",
+      "title": "Mysterious Ambience (song21)",
+      "creator": "The Cynic Project / cynicmusic",
+      "page": "https://opengameart.org/content/mysterious-ambience-song21",
+      "url": "https://opengameart.org/sites/default/files/song21_0.mp3",
+      "file": "mysterious-ambience-song21.mp3",
+      "license": "CC0-1.0",
+      "sha256": "9b83b4c7e86ade6aeeffa71e2d928c3d84be30802c239151eaae7365f12d9151"
+    },
+    {
+      "id": "a-new-town-rpg-theme",
+      "title": "A New Town (RPG Theme)",
+      "creator": "The Cynic Project / cynicmusic",
+      "page": "https://opengameart.org/content/a-new-town-rpg-theme",
+      "url": "https://opengameart.org/sites/default/files/025_A_New_Town.mp3",
+      "file": "a-new-town-rpg-theme.mp3",
+      "license": "CC0-1.0",
+      "sha256": "8a83b97f06cad1052eea0a3fa8f65966db742e68275a1d82816773c820578ad2"
+    },
+    {
+      "id": "november-snow",
+      "title": "November Snow",
+      "creator": "The Cynic Project / cynicmusic",
+      "page": "https://opengameart.org/content/november-snow",
+      "url": "https://opengameart.org/sites/default/files/155%20November_snow-33_tape_leveled.mp3",
+      "file": "november-snow.mp3",
+      "license": "CC0-1.0",
+      "sha256": "7e4675f6fbc86b97603d620dc54b0753eb5fe773ccc2fab99bc863cb7afde32c"
+    },
+    {
+      "id": "dark-forest-theme",
+      "title": "Dark Forest Theme",
+      "creator": "The Cynic Project / cynicmusic",
+      "page": "https://opengameart.org/content/dark-forest-theme",
+      "url": "https://opengameart.org/sites/default/files/GameMusic_ForestTheme_24_0.mp3",
+      "file": "dark-forest-theme.mp3",
+      "license": "CC0-1.0",
+      "sha256": "c9e83d01741e97a462c44963aff81645a9c2aa3a7a33e5849114a1399d1b0914"
+    },
+    {
+      "id": "happy-lullaby-song17",
+      "title": "Happy Lullaby (song17)",
+      "creator": "The Cynic Project / cynicmusic",
+      "page": "https://opengameart.org/content/happy-lullaby-song17",
+      "url": "https://opengameart.org/sites/default/files/song17.mp3",
+      "file": "happy-lullaby-song17.mp3",
+      "license": "CC0-1.0",
+      "sha256": "9fa0b0e96860eace536fa36f4e9c2c1284db894a8df3cdaa19ddae429b1bfd42"
+    },
+    {
+      "id": "icy-realm-seven-and-eight",
+      "title": "Icy Realm - (Seven and Eight)",
+      "creator": "The Cynic Project / cynicmusic",
+      "page": "https://opengameart.org/content/icy-realm-seven-and-eight",
+      "url": "https://opengameart.org/sites/default/files/019_seven_and_eight_7-8_combined_0.mp3",
+      "file": "icy-realm-seven-and-eight.mp3",
+      "license": "CC0-1.0",
+      "sha256": "9e7ab0685eade033a460ee51e7a63179ed2483b3d7560df3a34e9af83dd5bc72"
+    },
+    {
+      "id": "aquaria",
+      "title": "Aquaria",
+      "creator": "The Cynic Project / cynicmusic",
+      "page": "https://opengameart.org/content/aquaria",
+      "url": "https://opengameart.org/sites/default/files/TylerSong3_Normal.wav",
+      "file": "aquaria.wav",
+      "license": "CC0-1.0",
+      "sha256": "44f5ff8ccdc184ff41466934f59b9fb8490b66d31f5e08f0064de36e2b4763ee"
+    },
+    {
+      "id": "another-august",
+      "title": "Another August",
+      "creator": "The Cynic Project / cynicmusic",
+      "page": "https://opengameart.org/content/another-august",
+      "url": "https://opengameart.org/sites/default/files/013_Another_August_0.mp3",
+      "file": "another-august.mp3",
+      "license": "CC0-1.0",
+      "sha256": "6de6e4f770cda4d34db433e4df982deccb6877a8fcc5e32b48eeb57f770dec3b"
+    },
+    {
+      "id": "kenney-impact",
+      "title": "Impact Sounds",
+      "creator": "Kenney",
+      "page": "https://kenney.nl/assets/impact-sounds",
+      "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "file": "kenney-impact.zip",
+      "license": "CC0-1.0",
+      "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8"
+    },
+    {
+      "id": "kenney-rpg",
+      "title": "RPG Audio",
+      "creator": "Kenney",
+      "page": "https://kenney.nl/assets/rpg-audio",
+      "url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+      "file": "kenney-rpg.zip",
+      "license": "CC0-1.0",
+      "sha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b"
+    },
+    {
+      "id": "kenney-interface",
+      "title": "Interface Sounds",
+      "creator": "Kenney",
+      "page": "https://kenney.nl/assets/interface-sounds",
+      "url": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+      "file": "kenney-interface.zip",
+      "license": "CC0-1.0",
+      "sha256": "f2193d072726d6758a5f7871b2dcc54dcce0d5c35c6f0a62f92549b327c81232"
+    },
+    {
+      "id": "creatures",
+      "title": "80 CC0 creature SFX",
+      "creator": "rubberduck",
+      "page": "https://opengameart.org/content/80-cc0-creature-sfx",
+      "url": "https://opengameart.org/sites/default/files/80-CC0-creature-SFX_0.zip",
+      "file": "creatures.zip",
+      "license": "CC0-1.0",
+      "sha256": "5d4002eea42f278e76543bb36e8ddd2cb978588a13271984191d8228f5d26768"
+    },
+    {
+      "id": "water",
+      "title": "40 CC0 water / splash / slime SFX",
+      "creator": "rubberduck",
+      "page": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx",
+      "url": "https://opengameart.org/sites/default/files/water-splash-slime-sfx.zip",
+      "file": "water.zip",
+      "license": "CC0-1.0",
+      "sha256": "7cd39abb49d4362a37ba18dc0e454c7dc1d08029d4e5b683149046bc237b2eba"
+    },
+    {
+      "id": "first-light-particles",
+      "title": "First Light Particles",
+      "creator": "Yoiyami",
+      "page": "https://opengameart.org/content/first-light-particles-%E2%80%93-cc0-atmospheric-pianoambient-track",
+      "url": "https://opengameart.org/sites/default/files/first_light_particles_0.wav",
+      "file": "first-light-particles.wav",
+      "license": "CC0-1.0",
+      "sha256": "f0538a1a67450cc1d5e305fad5bc0d5d422ad809f720d695ab356e55fbe40fc5"
+    },
+    {
+      "id": "bone-snap",
+      "creator": "Robo9418",
+      "title": "Dry bone snap",
+      "page": "https://freesound.org/people/Robo9418/sounds/869107/",
+      "url": "https://cdn.freesound.org/previews/869/869107_15176424-hq.mp3",
+      "file": "bone-snap.mp3",
+      "license": "CC0-1.0",
+      "sha256": "9e2a5f7028c1e91464fdb61ce395bef04b1120dcddc57c230f52b3f654068275"
+    },
+    {
+      "id": "bone-cracks",
+      "creator": "BorzSounds",
+      "title": "Nutcracking bone foley",
+      "page": "https://freesound.org/people/BorzSounds/sounds/843306/",
+      "url": "https://cdn.freesound.org/previews/843/843306_16979474-hq.mp3",
+      "file": "bone-cracks.mp3",
+      "license": "CC0-1.0",
+      "sha256": "b99d5807e069ba4fa8a338edc6eb9ae772312f85e5e42ef644e3fb2c0391c77c"
+    },
+    {
+      "id": "anvil-strike",
+      "creator": "michorvath",
+      "title": "Anvil Hit 2",
+      "page": "https://freesound.org/people/michorvath/sounds/270588/",
+      "url": "https://cdn.freesound.org/previews/270/270588_3094998-hq.mp3",
+      "file": "anvil-strike.mp3",
+      "license": "CC0-1.0",
+      "sha256": "7054c5e076133e396ced8473bb4cf73263470f9e96f25aba21c0ee03b904e467"
+    },
+    {
+      "id": "anvil-bright",
+      "creator": "ldezem",
+      "title": "Lokomo anvil bright strike",
+      "page": "https://freesound.org/people/ldezem/sounds/386106/",
+      "url": "https://cdn.freesound.org/previews/386/386106_1655965-hq.mp3",
+      "file": "anvil-bright.mp3",
+      "license": "CC0-1.0",
+      "sha256": "5602bf5664dfc2c70d7ce99af5f5b0d51023789ccc5908cdd116db4f34092ab1"
+    },
+    {
+      "id": "fuse-burning",
+      "creator": "elonen",
+      "title": "Fireworks fuse burning",
+      "page": "https://freesound.org/people/elonen/sounds/45650/",
+      "url": "https://cdn.freesound.org/previews/45/45650_45914-hq.mp3",
+      "file": "fuse-burning.mp3",
+      "license": "CC0-1.0",
+      "sha256": "a5c927b495456157b7830ad5db507b747ad3f019bf52433a3e2c74dc1a20154f"
+    },
+    {
+      "id": "lever-switch",
+      "creator": "kentspublicdomain",
+      "title": "Electric switch click",
+      "page": "https://freesound.org/people/kentspublicdomain/sounds/476954/",
+      "url": "https://cdn.freesound.org/previews/476/476954_5583936-hq.mp3",
+      "file": "lever-switch.mp3",
+      "license": "CC0-1.0",
+      "sha256": "7e5d5b66faed1928c13b5740dc54ce16dd3e18c432d0c69dd12185f168d3c56b"
+    },
+    {
+      "id": "bow-release",
+      "creator": "saturdaysoundguy",
+      "title": "Longbow arrow release",
+      "page": "https://freesound.org/people/saturdaysoundguy/sounds/394185/",
+      "url": "https://cdn.freesound.org/previews/394/394185_7280678-hq.mp3",
+      "file": "bow-release.mp3",
+      "license": "CC0-1.0",
+      "sha256": "7b64b04286def241f12679f3633c0e20c37d2b28419c624d72f238b773a17e40"
+    },
+    {
+      "id": "arrow-impact",
+      "creator": "EminYILDIRIM",
+      "title": "Bow Impact",
+      "page": "https://freesound.org/people/EminYILDIRIM/sounds/536066/",
+      "url": "https://cdn.freesound.org/previews/536/536066_10912485-hq.mp3",
+      "file": "arrow-impact.mp3",
+      "license": "CC0-1.0",
+      "sha256": "c39d76431f2f598ee3e0a9122ae854318b04d11dad9515392c03ffc7d70fbd5b"
+    }
+  ],
+  "license_scope": "CC0 applies only to the original sources listed in sources; supplied Enhanced Audio archives have no license declaration.",
+  "imported_sources": [
+    {
+      "id": "enhanced-audio-r7",
+      "filename": "Enhanced Audio r7.zip",
+      "sha256": "77baaeb8469acf33c6f852aa70336d09cda781322dd32cb599eb6089ab4f323c",
+      "license": "not-specified-in-supplied-archive"
+    },
+    {
+      "id": "enhanced-audio-ambience-r2",
+      "filename": "Enhanced Audio Ambience r2.zip",
+      "sha256": "1d4c836e83a30340edb20100e76a7d18e4ea88ad98914d5d0944c9cda4289309",
+      "license": "not-specified-in-supplied-archive"
+    }
+  ],
+  "original_sources_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

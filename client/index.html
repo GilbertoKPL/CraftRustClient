@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content" />
+    <meta name="theme-color" content="#071321" />
+    <title>Total Craft</title>
+    <!-- The loader is styled before any game assets or cached scripts are ready. -->
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #071321; }
+      #glcanvas { position: absolute; inset: 0; width: 100%; height: 100%; outline: none; }
+      [hidden] { display: none !important; }
+      #loading { position: fixed; inset: 0; z-index: 10; overflow: auto; color: #edf8ff;
+        font-family: "Courier New", monospace; text-shadow: 2px 2px 0 #03101e;
+        background-color: #071321; background-image: linear-gradient(180deg, #020a18aa, #03142a18 42%, #020a18c9), var(--loading-background, radial-gradient(ellipse at 65% 45%, #145071, #071321 70%));
+        background-size: cover; background-position: center; }
+      .loading-shell { min-height: 100%; min-height: 100dvh; display: flex; flex-direction: column;
+        align-items: center; padding: clamp(24px, 6vh, 60px) 24px 22px; }
+      .loading-brand { text-align: center; }
+      .loading-brand h1 { margin: 0; font-size: clamp(26px, 4vw, 44px); font-weight: 900;
+        line-height: 1; letter-spacing: .07em; }
+      .loading-brand h1 span { color: #40d7ff; }
+      .loading-brand p { margin: 12px 0 0; color: #a5d9ec; font-size: 11px; letter-spacing: .22em; }
+      .loading-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; width: min(100%, 600px);
+        margin-top: clamp(22px, 4vh, 42px); }
+      .loading-stat { min-width: 0; background: #031321df; border: 1px solid #28617a;
+        border-left: 3px solid #40d7ff; padding: 12px 16px; box-shadow: 0 4px 0 #0004; }
+      .loading-stat-label { color: #94b5c5; font-size: 11px; letter-spacing: .06em; }
+      .loading-stat-value { display: block; font-size: clamp(12px, 1.7vw, 17px); font-weight: bold;
+        margin: 9px 0 11px; white-space: nowrap; }
+      .loading-stat-note { margin-top: 8px; font-size: 10px; color: #88a6b7; line-height: 1.4; }
+      .loading-meter { display: block; width: 100%; height: 6px; background: #142d3d; border: 1px solid #315267; }
+      .loading-meter > span { display: block; width: 0; height: 100%; background: #40d7ff; }
+      .loading-stage { width: min(100%, 680px); margin-top: auto; padding-top: 60px; }
+      .loading-panel { padding: 22px 24px; border: 1px solid #3d7289; background: #031321ed;
+        box-shadow: 0 4px 0 #0006, inset 0 2px 0 #40d7ff; }
+      .loading-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+      #loading-message { margin: 0; font-size: clamp(13px, 1.8vw, 18px); font-weight: bold;
+        line-height: 1.5; overflow-wrap: anywhere; }
+      #loading-percent { color: #40d7ff; font-size: 20px; font-weight: bold; flex-shrink: 0; }
+      #loading-progress { height: 15px; margin: 16px 0 13px; border: 2px solid #42667b;
+        background: #07121f; padding: 2px; overflow: hidden; }
+      #loading-fill { height: 100%; width: 0; background: linear-gradient(#8beaff 0 25%, #31c4ee 25% 70%, #1489bc 70%);
+        box-shadow: 0 0 12px #30c8ff66; }
+      #loading[data-indeterminate="true"] #loading-fill { width: 24%; animation: loading-sweep 1.8s ease-in-out infinite alternate; }
+      @keyframes loading-sweep { to { transform: translateX(315%); } }
+      .loading-details { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 20px;
+        color: #b9d5e3; font-size: 12px; line-height: 1.5; }
+      #loading-file { display: block; margin-top: 12px; color: #7296ac; font-size: 11px;
+        overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-height: 14px; }
+      .loading-footer { width: 100%; text-align: center; padding-top: clamp(24px, 6vh, 60px); }
+      #loading-tip { margin: 0; font-size: clamp(11px, 1.3vw, 14px); line-height: 1.7; color: #d1e5ee; }
+      .loading-footer small { display: block; margin-top: 8px; color: #7495a9; font-size: 10px; letter-spacing: .15em; }
+      #loading-retry { display: block; width: 200px; margin: 18px auto 0; padding: 12px;
+        color: #edf8ff; background: #133248; border: 1px solid #40d7ff; font: bold 13px "Courier New", monospace;
+        cursor: pointer; box-shadow: 0 3px 0 #020b14; }
+      #loading-retry:hover, #loading-retry:focus-visible { background: #20516c; outline: 2px solid #a4edff; outline-offset: 3px; }
+      #loading[data-failed="true"] #loading-message { color: #ffc493; }
+      #loading[data-failed="true"] #loading-progress { border-color: #bc7849; }
+      @media (max-width: 480px) {
+        .loading-shell { padding: 28px 14px 18px; }
+        .loading-stats { gap: 8px; }
+        .loading-stat { padding: 10px; }
+        .loading-stat-value { font-size: 12px; }
+        .loading-panel { padding: 18px 14px; }
+        .loading-stage { padding-top: 36px; }
+        #loading-percent { font-size: 17px; }
+      }
+      @media (max-height: 500px) and (min-width: 600px) {
+        .loading-shell { padding-top: 18px; padding-bottom: 12px; }
+        .loading-brand h1 { font-size: 26px; }
+        .loading-brand p { margin-top: 6px; }
+        .loading-stats { margin-top: 14px; }
+        .loading-stat { padding: 8px 12px; }
+        .loading-stat-value { margin: 5px 0; }
+        .loading-stat-note { margin-top: 4px; }
+        .loading-stage { padding-top: 24px; }
+        .loading-panel { padding: 14px 20px; }
+        .loading-footer { padding-top: 16px; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        #loading[data-indeterminate="true"] #loading-fill { animation: none; width: 100%; opacity: .4; }
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="glcanvas" tabindex="1" aria-label="CraftRust"></canvas>
+    <div id="loading" data-indeterminate="true">
+      <div class="loading-shell">
+        <header class="loading-brand"><h1>TOTAL <span>CRAFT</span></h1><p>PREPARANDO SUA AVENTURA</p></header>
+        <div class="loading-stats" aria-label="Uso de recursos">
+          <section class="loading-stat">
+            <div class="loading-stat-label">CPU DO JOGO</div>
+            <strong class="loading-stat-value">Indisponível na web</strong>
+            <span class="loading-meter" aria-hidden="true"><span></span></span>
+            <div class="loading-stat-note">O navegador não informa o uso de CPU.</div>
+          </section>
+          <section class="loading-stat">
+            <div class="loading-stat-label" id="loading-memory-label">MEMÓRIA JS</div>
+            <strong class="loading-stat-value" id="loading-memory">Verificando...</strong>
+            <span class="loading-meter" aria-hidden="true"><span id="loading-memory-fill"></span></span>
+            <div class="loading-stat-note" id="loading-memory-note">Heap JavaScript desta página.</div>
+          </section>
+        </div>
+        <main class="loading-stage">
+          <div class="loading-panel">
+            <div class="loading-heading"><p id="loading-message" role="status" aria-live="polite">Verificando atualizações...</p><span id="loading-percent">...</span></div>
+            <div id="loading-progress" role="progressbar" aria-label="Preparação de recursos" aria-valuemin="0" aria-valuemax="100"><div id="loading-fill"></div></div>
+            <div class="loading-details"><span id="loading-bytes">Consultando recursos do jogo</span><span id="loading-files">Aguarde um instante</span></div>
+            <span id="loading-file"></span>
+            <button id="loading-retry" type="button" hidden>Tentar novamente</button>
+          </div>
+        </main>
+        <footer class="loading-footer"><p id="loading-tip">Seu próximo mundo começa com um bloco.</p><small>TOTAL CRAFT · CRAFTRUST</small></footer>
+      </div>
+    </div>
+    <script src="/bootstrap.js"></script>
+  </body>
+</html>

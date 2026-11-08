@@ -1,0 +1,49 @@
+html,
+body,
+#glcanvas {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  background: #000;
+}
+#glcanvas {
+  outline: none;
+  z-index: 0;
+}
+[hidden] {
+  display: none !important;
+}
+
+#game-cursor { position: fixed; z-index: 3; pointer-events: none; width: 13px; height: 19px;
+  background: white; clip-path: polygon(0 0,0 90%,30% 65%,55% 100%,75% 88%,50% 55%,100% 55%);
+  filter: drop-shadow(1px 1px 1px black); }
+#capture-notice { position: absolute; bottom: 8px; left: 0; right: 0; z-index: 4;
+  text-align: center; color: white; font: 14px monospace; pointer-events: none; }
+
+#glcanvas, #touch-controls { touch-action: none; }
+#touch-controls { position: fixed; inset: 0; z-index: 5; pointer-events: none;
+  user-select: none; -webkit-user-select: none; font-family: monospace; }
+#touch-controls button { pointer-events: auto; touch-action: none; color: #eafaff;
+  background: #071c30b8; border: 1px solid #79d7f3a0; border-radius: 8px;
+  font: bold 12px monospace; min-height: 42px; padding: 8px 10px; }
+#touch-controls button:active { background: #24769ed9; }
+.touch-top { position: absolute; top: max(8px, env(safe-area-inset-top));
+  left: 50%; transform: translateX(-50%); display: flex; gap: 6px; }
+.touch-stick { position: absolute; pointer-events: auto; width: 124px; height: 124px;
+  left: max(20px, env(safe-area-inset-left)); bottom: max(84px, calc(env(safe-area-inset-bottom) + 70px));
+  border: 2px solid #9adbf096; border-radius: 50%; background: #071c306b; }
+.touch-stick span { position: absolute; width: 48px; height: 48px; top: 36px; left: 36px;
+  border: 1px solid #b9f1ff; border-radius: 50%; background: #4aa5c98f; pointer-events: none; }
+.touch-actions { position: absolute; right: max(12px, env(safe-area-inset-right));
+  bottom: max(84px, calc(env(safe-area-inset-bottom) + 70px)); width: 166px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+.touch-actions button:first-child { grid-column: span 2; }
+.touch-hotbar { position: absolute; bottom: max(48px, calc(env(safe-area-inset-bottom) + 40px));
+  left: 50%; transform: translateX(-50%); display: flex; gap: 3px; }
+#touch-controls .touch-hotbar button { width: clamp(27px, 7vw, 44px); padding: 4px; min-height: 36px; }
+#touch-text { position: fixed; z-index: 6; box-sizing: border-box; border: 2px solid #71dfed;
+  border-radius: 3px; background: #071321; color: #edf8ff; padding: 4px 8px;
+  font: 16px monospace; outline: none; touch-action: auto; }
