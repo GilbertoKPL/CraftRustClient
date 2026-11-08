@@ -302,7 +302,7 @@
     voice.gain.gain.value =
       voice.baseVolume *
       (voice.event.includes(".weather.thunder") || voice.event.includes("lightning")
-        ? 1.4 : voice.index === 1 ? 0.7 : voice.index === 8 ? 0.6 : 1) *
+        ? 1.4 : voice.index === 1 ? 0.49 : voice.index === 8 ? 0.48 : 1) *
       attenuation *
       listener.volume[0] *
       (voice.index ? listener.volume[voice.index] : 1) *
