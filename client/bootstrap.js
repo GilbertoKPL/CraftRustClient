@@ -208,7 +208,7 @@ class CraftResourceCache {
       request.onsuccess = () => {
         const cursor = request.result;
         if (!cursor) return;
-        if (!wanted.has(cursor.key)) store.delete(cursor.key);
+        if (!String(cursor.key).startsWith("mod-sha256:") && !wanted.has(cursor.key)) store.delete(cursor.key);
         cursor.continue();
       };
     });
@@ -225,6 +225,131 @@ class CraftResourceCache {
   }
 }
 globalThis.CraftResourceCache = CraftResourceCache;
+
+// Server mods expose only this declarative catalogue and PNG/OGG/language data.
+// Native code and source archives have no public HTTP route.
+class CraftModResources {
+  blobs = new Map(); bytes = new Map(); pending = new Map();
+  constructor(manifest, cache) {
+    if (manifest.schema !== 1 || !Array.isArray(manifest.blocks) || manifest.blocks.length > 1024 ||
+        !Array.isArray(manifest.items) || manifest.items.length > 8192 || !manifest.assets ||
+        Object.keys(manifest.assets).length > 8192) throw Error("Catálogo de mods inválido.");
+    for (const [path, entry] of Object.entries(manifest.assets)) {
+      if (!/^[a-zA-Z0-9_./ -]+$/.test(path) || path.split("/").some(p => !p || p === ".." || p === ".") ||
+          !/^[a-f0-9]{64}$/.test(entry.hash) || !Number.isSafeInteger(entry.size) || entry.size < 0 || entry.size > 16777216 ||
+          !["image/png", "audio/ogg", "text/plain"].includes(entry.mime)) throw Error("Recurso de mod inválido.");
+    }
+    const sprite = (path, frame) => manifest.assets[path]?.mime === "image/png" && Number.isInteger(frame) && frame >= 0 && frame < 1024;
+    const ids = new Set(), items = new Set();
+    for (const block of manifest.blocks) {
+      if (!Number.isInteger(block.id) || block.id < 198 || block.id > 65535 || ids.has(block.id) ||
+          !Array.isArray(block.faces) || block.faces.length !== 6 || !Array.isArray(block.frames) || block.frames.length !== 6 ||
+          !block.faces.every((path, i) => sprite(path, block.frames[i]))) throw Error("Bloco de mod inválido.");
+      ids.add(block.id);
+      if(block.variants && (!Array.isArray(block.variants) || ![0,16].includes(block.variants.length) || block.variants.some(state=>!Array.isArray(state)||state.length!==6||state.some((frame,i)=>!sprite(block.faces[i],frame))))) throw Error("Estado de bloco de mod inválido.");
+      if (block.container) {
+        const c=block.container;
+        if (!sprite(c.texture,0) || !Array.isArray(c.cells) || c.cells.length!==256 || !c.cells.every(k=>/^[a-f0-9]{64}$/.test(k)) ||
+            !Array.isArray(c.slots) || c.slots.length>54 || c.slots.some(s=>!Number.isInteger(s.x)||!Number.isInteger(s.y)||s.x<0||s.y<0||s.x+16>c.width||s.y+16>c.height)) throw Error("Interface de mod inválida.");
+      }
+    }
+    for (const item of manifest.items) {
+      if (!Number.isInteger(item.id) || item.id < 0 || item.id > 65535 || items.has(item.id) || !sprite(item.texture, item.frame))
+        throw Error("Item de mod inválido.");
+      items.add(item.id);
+    }
+    const tiles = new Set(manifest.blocks.flatMap(b => b.faces.map((p,i) => p + "#" + b.frames[i])));
+    for(const b of manifest.blocks) for(const state of b.variants||[]) for(let i=0;i<6;i++) tiles.add(b.faces[i]+"#"+state[i]);
+    for (const item of manifest.items) tiles.add(item.texture + "#" + item.frame);
+    for(const b of manifest.blocks) if(b.container) for(const key of b.container.cells) tiles.add("gui:"+key);
+    if (!Number.isInteger(manifest.tile_capacity) || manifest.tile_capacity < 0 || manifest.tile_capacity > 2048 || tiles.size > manifest.tile_capacity)
+      throw Error("Os mods excedem a capacidade do atlas de texturas.");
+    this.manifest = manifest; this.cache = cache;
+    this.encoded = new TextEncoder().encode(JSON.stringify(manifest));
+  }
+  async fetch(path) {
+    const entry = this.manifest.assets[path];
+    if (!entry) throw Error("Recurso não declarado pelo mod: " + path);
+    if (!this.pending.has(entry.hash)) this.pending.set(entry.hash, this.load(entry).catch(error => { this.pending.delete(entry.hash); throw error; }));
+    const blob = await this.pending.get(entry.hash);
+    this.blobs.set(path, blob);
+    return new Response(blob, { headers: { "Content-Type": entry.mime } });
+  }
+  async load(entry) {
+    const key = "mod-sha256:" + entry.hash;
+    const verify = async blob => blob instanceof Blob && blob.size === entry.size &&
+      await CraftModResources.hash(new Uint8Array(await blob.arrayBuffer())) === entry.hash;
+    let blob = await this.cache.transaction("readonly", store => store.get(key));
+    if (!await verify(blob)) {
+      blob = await CraftResourceCache.request("/mod-assets/" + entry.hash, { cache: "default" }, async response => {
+        const chunks = []; let size = 0;
+        const reader = response.body.getReader();
+        try {
+          while (true) {
+            const { value, done } = await reader.read(); if (done) break;
+            size += value.byteLength;
+            if (size > entry.size) { await reader.cancel(); throw Error("Recurso de mod maior que o declarado."); }
+            chunks.push(value);
+          }
+        } finally { reader.releaseLock(); }
+        return new Blob(chunks, { type: entry.mime });
+      });
+      if (!await verify(blob)) throw Error("Recurso de mod corrompido.");
+      await this.cache.transaction("readwrite", store => store.put(blob, key));
+    }
+    return blob;
+  }
+  async prepare() {
+    const wanted = [...new Set([...this.manifest.blocks.flatMap(b => b.faces), ...this.manifest.items.map(i => i.texture),...this.manifest.blocks.filter(b=>b.container).map(b=>b.container.texture)])];
+    let cursor = 0;
+    const results = await Promise.allSettled(Array.from({ length: Math.min(4, wanted.length) }, async () => {
+      while (cursor < wanted.length) {
+        const path = wanted[cursor++]; const response = await this.fetch(path);
+        this.bytes.set(path, new Uint8Array(await response.arrayBuffer()));
+      }
+    }));
+    const failure = results.find(r => r.status === "rejected"); if (failure) throw failure.reason;
+    // Keep only revisions from the complete, validated current mod catalogue.
+    const hashes = new Set(Object.values(this.manifest.assets).map(e => "mod-sha256:" + e.hash));
+    await this.cache.transaction("readwrite", store => {
+      const request = store.openKeyCursor(); request.onsuccess = () => {
+        const cursor = request.result; if (!cursor) return;
+        if (String(cursor.key).startsWith("mod-sha256:") && !hashes.has(cursor.key)) store.delete(cursor.key);
+        cursor.continue();
+      };
+    });
+  }
+  static async hash(bytes) {
+    if (globalThis.crypto?.subtle) {
+      const digest = await crypto.subtle.digest("SHA-256", bytes);
+      return Array.from(new Uint8Array(digest), b => b.toString(16).padStart(2, "0")).join("");
+    }
+    // HTTP WebViews lack WebCrypto. This fallback also verifies disk-cache data.
+    const k = [0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,
+      0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,
+      0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,
+      0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,
+      0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,
+      0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,
+      0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,
+      0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];
+    const h = [0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];
+    const padded = new Uint8Array(Math.ceil((bytes.length + 9) / 64) * 64); padded.set(bytes); padded[bytes.length] = 128;
+    const view = new DataView(padded.buffer); view.setUint32(padded.length - 4, bytes.length * 8); view.setUint32(padded.length - 8, Math.floor(bytes.length / 0x20000000));
+    const r = (x,n) => (x >>> n) | (x << (32-n)), w = new Uint32Array(64);
+    for (let offset = 0; offset < padded.length; offset += 64) {
+      for (let i=0;i<16;i++) w[i] = view.getUint32(offset+i*4);
+      for (let i=16;i<64;i++) w[i] = (w[i-16] + (r(w[i-15],7)^r(w[i-15],18)^(w[i-15]>>>3)) + w[i-7] + (r(w[i-2],17)^r(w[i-2],19)^(w[i-2]>>>10))) >>> 0;
+      let [a,b,c,d,e,f,g,hh] = h;
+      for (let i=0;i<64;i++) { const t1 = (hh + (r(e,6)^r(e,11)^r(e,25)) + ((e&f)^(~e&g)) + k[i] + w[i]) >>> 0;
+        const t2 = ((r(a,2)^r(a,13)^r(a,22)) + ((a&b)^(a&c)^(b&c))) >>> 0;
+        hh=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0; }
+      [a,b,c,d,e,f,g,hh].forEach((v,i) => { h[i]=(h[i]+v)>>>0; });
+    }
+    return h.map(v => v.toString(16).padStart(8,"0")).join("");
+  }
+}
+globalThis.CraftModResources = CraftModResources;
 
 class CraftLoadingScreen {
   constructor() {
@@ -299,6 +424,10 @@ globalThis.craftLoading = new CraftLoadingScreen();
       }
     });
     globalThis.craftAssets = cache;
+    loading.stage("Preparando texturas dos mods...");
+    const modManifest = await CraftResourceCache.request("/mod-manifest.json", { cache: "no-store" }, response => response.json());
+    globalThis.craftMods = new CraftModResources(modManifest, cache);
+    await craftMods.prepare();
     loading.stage("Iniciando Total Craft...");
     loading.text("file", "Recursos prontos. Preparando o motor do jogo...");
     const style = document.createElement("link");

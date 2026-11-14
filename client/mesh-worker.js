@@ -10,6 +10,12 @@ self.onmessage = async ({ data }) => {
         env[entry.name] = () => { throw Error("Unexpected mesh import: " + entry.name); };
       }
       env.cr_now = () => performance.now();
+      const manifest = data.modManifest ?? new TextEncoder().encode('{"blocks":[],"items":[]}');
+      env.cr_mod_resource_size = (_ptr, len) => len === 0 ? manifest.length : -1;
+      env.cr_mod_resource_read = (_ptr, len, out, capacity) => {
+        if (len !== 0 || manifest.length > capacity) return 0;
+        new Uint8Array(instance.memory.buffer, out, manifest.length).set(manifest); return manifest.length;
+      };
       instance = (await WebAssembly.instantiate(data.module, { env })).exports;
       self.postMessage({ ready: true, memory: instance.memory.buffer.byteLength });
       return;

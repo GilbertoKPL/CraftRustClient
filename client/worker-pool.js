@@ -34,7 +34,7 @@ class CraftMeshPool {
           if (data.error) { console.warn("CraftRust mesh worker:", data.error); this.fail(); }
         };
         worker.onerror = () => this.fail();
-        worker.postMessage({ module });
+        worker.postMessage({ module, modManifest: globalThis.craftMods?.encoded });
       }
     }).catch(error => { console.warn("CraftRust workers:", error); this.fail(); });
   }

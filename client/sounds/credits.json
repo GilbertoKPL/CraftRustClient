@@ -431,6 +431,16 @@
       "file": "arrow-impact.mp3",
       "license": "CC0-1.0",
       "sha256": "c39d76431f2f598ee3e0a9122ae854318b04d11dad9515392c03ffc7d70fbd5b"
+    },
+    {
+      "id": "mocreatures",
+      "page": "https://github.com/multision/mocreaturesdev",
+      "commit": "fe18dea38d8f402af7345b54d3fef8ef841173c4",
+      "license": "GPL-3.0",
+      "creator": "DrZhark, BlockDaddy, Bloodshot, multision, TheidenHD, ACGaming, IcarussOne, xJon",
+      "title": "Mo'Creatures",
+      "changes": "Selected original audio files; no resampling or edits; event names adapted for CraftRust.",
+      "manifest": "resources/provenance/mocreatures.json"
     }
   ],
   "license_scope": "CC0 applies only to the original sources listed in sources; supplied Enhanced Audio archives have no license declaration.",

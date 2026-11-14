@@ -302,7 +302,7 @@
     voice.gain.gain.value =
       voice.baseVolume *
       (voice.event.includes(".weather.thunder") || voice.event.includes("lightning")
-        ? 1.4 : voice.index === 1 ? 0.49 : voice.index === 8 ? 0.48 : 1) *
+        ? 1.4 : voice.index === 1 ? 0.343 : voice.index === 8 ? 0.48 : 1) *
       attenuation *
       listener.volume[0] *
       (voice.index ? listener.volume[voice.index] : 1) *
@@ -438,6 +438,17 @@
       const runLoop = imports.env.run_animation_loop;
       imports.env.run_animation_loop = blocking => { runLoop(blocking); input.install(); };
       Object.assign(imports.env, {
+        cr_mod_resource_size: (ptr, len) => {
+          const path = text(ptr, len), mods = globalThis.craftMods;
+          return (path ? mods?.bytes.get(path) : mods?.encoded)?.length ?? -1;
+        },
+        cr_mod_resource_read: (ptr, len, out, capacity) => {
+          const path = text(ptr, len), mods = globalThis.craftMods;
+          const bytes = path ? mods?.bytes.get(path) : mods?.encoded;
+          if (!bytes || bytes.length > capacity) return 0;
+          new Uint8Array(wasm_memory.buffer, out, bytes.length).set(bytes);
+          return bytes.length;
+        },
         // WebGL 2 requires a sized internal format for depth attachments.
         glTexImage2D: (
           target,
